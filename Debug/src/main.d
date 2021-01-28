@@ -84,7 +84,7 @@ src/main.o: ../src/main.cpp ../system/include/diag/Trace.h \
  ../system/include/stm32f4-hal/stm32f4xx_hal_lptim.h \
  ../include/BlinkLed.h ../include/testdata.h ../include/LookUp.hpp \
  ../include/Table.h ../include/pid.hpp ../include/sensor.hpp \
- ../include/control.hpp
+ ../include/sensor.hpp ../include/Table.h ../include/control.hpp
 
 ../system/include/diag/Trace.h:
 
@@ -271,5 +271,9 @@ src/main.o: ../src/main.cpp ../system/include/diag/Trace.h \
 ../include/pid.hpp:
 
 ../include/sensor.hpp:
+
+../include/sensor.hpp:
+
+../include/Table.h:
 
 ../include/control.hpp:

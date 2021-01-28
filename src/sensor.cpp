@@ -7,40 +7,28 @@
 //
 #include <sensor.hpp>
 #include <testdata.h>
-int random_index;
+int count;
 
 void motor(float output){
-    //cout << "motor running" << output << endl;
     trace_printf("motor running : %f \n", output);
 
 }
 
 
 float getRPM(){
-    //float rpm;
-    //cout << "enter rpm: " << endl;
-    //cin >> rpm;
-    //return rpm;
 
-	return testdata[random_index][0];
+	return testdata[count][0];
       
 }
 
-float getThrottle(){
-    //float throttle;
-    //cout << "enter Throttle: " << endl;
-   // cin >> throttle;
-   // return throttle;
-   // trace_printf("motor running : %f \n", testdata[random_index][1]);
+float getSheath(){
 
-	return testdata[random_index][1];
 
+	return testdata[count][1];
 
 }
 
-float getTorque(){
-    //trace_printf("motor running : %f \n", testdata[random_index][2]);
-
-	return testdata[random_index][2];
-
+int getThrottle(){
+	return testdata[count][2];
 }
+

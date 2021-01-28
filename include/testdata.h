@@ -1,6 +1,5 @@
 #ifndef testdata_h
 #define testdata_h
 
-extern int testdata[60][3];
-
+extern int testdata[45][3];
 #endif

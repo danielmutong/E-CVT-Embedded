@@ -9,21 +9,20 @@
 #ifndef LookUp_hpp
 #define LookUp_hpp
 
-#include <Table.h>
+#include "Table.h"
 class LookUp {
 private:
     float output;
     float key1;
-    float key2;
+
 public:
-    LookUp(float val1, float val2){
-        output = 0;
-        key1 = val1;
-        key2 = val2;
-    }
+    LookUp(){}
     ~LookUp(){};
     
-    int findkey();
+    /*
+     This method finds and returns the value associated with the key in a map
+     */
+    int findkey(float key);
 };
 
 #endif /* LookUp_hpp */

@@ -160,51 +160,97 @@ BlinkLed blinkLeds[1] =
 #define CCM_RAM __attribute__((section(".ccmram")))
 
 #define FPU_TASK_STACK_SIZE 256
-#define MAX_KEY1 2501
-#define MAX_KEY2 101
+
+#define MIN_SHEATH 15 // minimum sheath position before limit switch
+#define MAX_SHEATH 80 // starting sheath position
+#define SHIFT_DISPLACEMENT 0.1
+#define MAX_RPM 3550
+#define MAX_THROTTLE 100
 StackType_t task1stack[FPU_TASK_STACK_SIZE] CCM_RAM;  // Put task stack in CCM
 StaticTask_t task1 CCM_RAM;  // Put TCB in CCM
-int count;
-
 void task1func(void *) {
-	pid test;
-	    while(1){
-	    	random_index = count;
-	        float key1 = 0;
-	        float key2 = 0;
-	        float value = 0;
-	        float sensor_value = 0;
-	        key1 = getRPM();
-	        key2 = getThrottle();
-            sensor_value = getTorque();
+	count = 0;
+	  pid test;
+	  LookUp a;
+	  int rpm = 0;
+	  int measured_sheath = 0;
+	  int ideal_sheath = 0;
+	  int throttle = 0;
+	  float sheath = MAX_SHEATH;
 
-            trace_printf("current rpm: %f , current throttle: %f , current torque is %f \n", key1, key2, sensor_value);
+	  //engagement phase
+	  while(rpm < MAX_RPM){
+	    rpm = getRPM();
+	    throttle = getThrottle();
+	    //if full throttle
+	    if(throttle == 100){
+	      //using map to find the optimal sheath given a pid in the transient phase
+	      ideal_sheath = a.findkey(rpm);
+	      measured_sheath = getSheath();
+	  	trace_printf("rpm: %u  - ideal sheath :%u - measured sheath: %u  \n", rpm, ideal_sheath, measured_sheath);
 
-	        if((key1 < 0) || (key1 > MAX_KEY1) || (key2 < 0) || (key2 > MAX_KEY2))
-	            trace_printf("key is out of range \n");
-
-	        else{
-	            LookUp a(key1, key2);
-	            value = a.findkey();
-	           // cout << "output is: " << value << endl;
-	            trace_printf("expected torque is : %f \n",value);
-
-	            test.pid_task(value, sensor_value);
-
-	        }
-		    vTaskDelay(2000);
+	      int pid_out = test.pid_task(ideal_sheath, measured_sheath);  //feeding measured sheath and ideal sheath into pid to find the adjustment
+	      sheath = measured_sheath + pid_out;   //moving sheath based on pid difference
+	  	trace_printf("new sheath:%f  \n", sheath);
 
 	    }
+	    count = count + 1;
+	    vTaskDelay(2000);
+
+
+	  }
+
+	  //Once we get to 3550 rpm, we enter the straight shift phase where we want to keep rpm constant
+	  while(1){
+	    rpm = getRPM();
+	    throttle = getThrottle();
+	    if(throttle == MAX_THROTTLE && (rpm) > MAX_RPM){
+	      if(sheath > MIN_SHEATH){ //makes sure sheath position doesnt exceed kill switch limit
+	    	trace_printf("upshifting \n");
+	    	motor(100);
+	        sheath = sheath -  SHIFT_DISPLACEMENT; //used for modelling
+		  	trace_printf("new sheath:%f  \n", sheath);
+
+	      }
+
+	    }
+	    //load
+	    else if( (rpm < MAX_RPM && throttle == MAX_RPM) ){
+	    	trace_printf("experiencing load \n");
+	      ideal_sheath = a.findkey(rpm);
+	      measured_sheath = getSheath();
+		  	trace_printf("ideal sheath :%u - measured sheath: %u  \n", ideal_sheath, measured_sheath);
+	      //moving sheath based on pid difference
+	      int pid_out = test.pid_task(ideal_sheath, measured_sheath);
+	      sheath = measured_sheath + pid_out; //used for modelling
+		  trace_printf("new sheath:%f  \n", sheath);
+
+	    }
+	    //down shift linearly
+	    else if(throttle == 0){
+	      trace_printf("downshifting \n");
+
+	      motor(-100);
+	      sheath = sheath + SHIFT_DISPLACEMENT; //used for modelling
+		  trace_printf("new sheath:%f  \n", sheath);
+	    }
+	    count = count + 1;
+	    vTaskDelay(2000);
+
+	  }
+
 }
 
 StackType_t task2stack[FPU_TASK_STACK_SIZE] CCM_RAM;  // Put task stack in CCM
 StaticTask_t task2 CCM_RAM;  // Put TCB in CCM
 void task2func(void *) {
+
 	while(1){
-		count = rand() % 60;
+		count = count + 0;
 	    vTaskDelay(1);
 
 	}
+
 }
 
 

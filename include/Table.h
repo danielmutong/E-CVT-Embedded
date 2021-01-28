@@ -12,8 +12,7 @@
 
 typedef struct map{
     float rpm;
-    float throttle;
-    float output;
+    float sheath;
 } map;
 
 

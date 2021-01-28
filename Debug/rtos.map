@@ -3,7 +3,9 @@ Archive member included to satisfy reference by file (symbol)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_mulsf3.o)
                               ./src/pid.o (__aeabi_fmul)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubdf3.o)
-                              ./src/control.o (__aeabi_f2d)
+                              ./src/main.o (__aeabi_dsub)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_truncdfsf2.o)
+                              ./src/main.o (__aeabi_d2f)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubsf3.o)
                               ./src/LookUp.o (__aeabi_fsub)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldivsf3.o)
@@ -24,22 +26,42 @@ Archive member included to satisfy reference by file (symbol)
                               (_printf_float)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
                               /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_float.o) (_printf_common)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-rand.o)
-                              ./src/main.o (rand)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfscanf_float.o)
+                              (_scanf_float)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-sf_nan.o)
+                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfscanf_float.o) (nanf)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-sprintf.o)
+                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfscanf_float.o) (sprintf)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strlen.o)
                               ./system/src/diag/Trace.o (strlen)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtod.o)
+                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfscanf_float.o) (_strtod_r)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtol.o)
+                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfscanf_float.o) (_strtol_r)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-vsnprintf.o)
                               ./system/src/diag/Trace.o (vsnprintf)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-ctype_.o)
+                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtol.o) (_ctype_)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-dtoa.o)
                               /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_float.o) (_dtoa_r)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-gdtoa-gethex.o)
+                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtod.o) (__gethex)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-gdtoa-hexnan.o)
+                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtod.o) (__match)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lnumeric.o)
+                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtod.o) (_C_numeric_locale)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-locale.o)
+                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtod.o) (__global_locale)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-localeconv.o)
                               /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_float.o) (_localeconv_r)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-malloc.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-rand.o) (malloc)
+                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-dtoa.o) (malloc)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mbtowc_r.o)
+                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-locale.o) (__ascii_mbtowc)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memchr.o)
                               /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o) (memchr)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-dtoa.o) (_Balloc)
+                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtod.o) (_Balloc)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-callocr.o)
                               /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o) (_calloc_r)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-freer.o)
@@ -47,39 +69,45 @@ Archive member included to satisfy reference by file (symbol)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
                               /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-malloc.o) (_malloc_r)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-svfprintf.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-vsnprintf.o) (_svfprintf_r)
+                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-sprintf.o) (_svfprintf_r)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-s_nan.o)
+                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtod.o) (nan)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-sbrkr.o)
                               /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-mallocr.o) (_sbrk_r)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-locale.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-localeconv.o) (__global_locale)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mbtowc_r.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-locale.o) (__ascii_mbtowc)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strcmp.o)
+                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-locale.o) (strcmp)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strncmp.o)
+                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtod.o) (strncmp)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-wctomb_r.o)
+                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-locale.o) (__ascii_wctomb)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memmove.o)
                               /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-svfprintf.o) (memmove)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mlock.o)
                               /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-freer.o) (__malloc_lock)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-reallocr.o)
                               /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-svfprintf.o) (_realloc_r)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strcmp.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-locale.o) (strcmp)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-wctomb_r.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-locale.o) (__ascii_wctomb)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-ctype_.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-locale.o) (_ctype_)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lock.o)
                               /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mlock.o) (__retarget_lock_acquire_recursive)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-msizer.o)
                               /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-reallocr.o) (_malloc_usable_size_r)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldf3.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-dtoa.o) (__aeabi_dmul)
+                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtod.o) (__aeabi_dmul)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldivdf3.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-dtoa.o) (__aeabi_ddiv)
+                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtod.o) (__aeabi_ddiv)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpdf2.o)
                               /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_float.o) (__aeabi_dcmpeq)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_unorddf2.o)
                               /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_float.o) (__aeabi_dcmpun)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_fixdfsi.o)
                               /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-dtoa.o) (__aeabi_d2iz)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_fixunsdfsi.o)
+                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtod.o) (__aeabi_d2uiz)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_unordsf2.o)
+                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtod.o) (__aeabi_fcmpun)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_fixdfdi.o)
+                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtod.o) (__aeabi_d2lz)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_fixunsdfdi.o)
+                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_fixdfdi.o) (__aeabi_d2ulz)
 
 Allocating common symbols
 Common symbol       size              file
@@ -5174,93 +5202,20 @@ Discarded input sections
  .ARM.attributes
                 0x0000000000000000       0x33 ./src/_write.o
  .group         0x0000000000000000        0xc ./src/control.o
- .group         0x0000000000000000        0xc ./src/control.o
- .group         0x0000000000000000        0xc ./src/control.o
- .group         0x0000000000000000        0xc ./src/control.o
- .group         0x0000000000000000        0xc ./src/control.o
- .group         0x0000000000000000        0xc ./src/control.o
- .group         0x0000000000000000        0xc ./src/control.o
- .group         0x0000000000000000        0xc ./src/control.o
- .group         0x0000000000000000        0xc ./src/control.o
- .group         0x0000000000000000        0xc ./src/control.o
- .group         0x0000000000000000        0xc ./src/control.o
- .group         0x0000000000000000        0xc ./src/control.o
- .group         0x0000000000000000        0xc ./src/control.o
- .group         0x0000000000000000        0xc ./src/control.o
- .group         0x0000000000000000        0xc ./src/control.o
- .group         0x0000000000000000        0xc ./src/control.o
- .group         0x0000000000000000        0xc ./src/control.o
- .group         0x0000000000000000        0xc ./src/control.o
- .group         0x0000000000000000        0xc ./src/control.o
- .group         0x0000000000000000        0xc ./src/control.o
- .group         0x0000000000000000        0xc ./src/control.o
- .group         0x0000000000000000        0xc ./src/control.o
- .group         0x0000000000000000        0xc ./src/control.o
- .group         0x0000000000000000        0xc ./src/control.o
- .group         0x0000000000000000        0xc ./src/control.o
- .group         0x0000000000000000        0xc ./src/control.o
- .group         0x0000000000000000        0xc ./src/control.o
- .group         0x0000000000000000        0xc ./src/control.o
- .group         0x0000000000000000        0xc ./src/control.o
- .group         0x0000000000000000        0xc ./src/control.o
- .group         0x0000000000000000        0xc ./src/control.o
- .group         0x0000000000000000        0xc ./src/control.o
- .group         0x0000000000000000        0xc ./src/control.o
- .group         0x0000000000000000        0xc ./src/control.o
  .text          0x0000000000000000        0x0 ./src/control.o
  .data          0x0000000000000000        0x0 ./src/control.o
  .bss           0x0000000000000000        0x0 ./src/control.o
- .rodata._Z4loopv.str1.4
-                0x0000000000000000       0x49 ./src/control.o
- .text._Z4loopv
-                0x0000000000000000       0xd0 ./src/control.o
- .debug_info    0x0000000000000000      0xdb6 ./src/control.o
- .debug_abbrev  0x0000000000000000      0x378 ./src/control.o
- .debug_loc     0x0000000000000000      0x180 ./src/control.o
+ .debug_info    0x0000000000000000       0x21 ./src/control.o
+ .debug_abbrev  0x0000000000000000       0x13 ./src/control.o
  .debug_aranges
-                0x0000000000000000       0x20 ./src/control.o
- .debug_ranges  0x0000000000000000       0x28 ./src/control.o
- .debug_macro   0x0000000000000000      0x205 ./src/control.o
+                0x0000000000000000       0x18 ./src/control.o
+ .debug_macro   0x0000000000000000       0x11 ./src/control.o
  .debug_macro   0x0000000000000000      0xb50 ./src/control.o
- .debug_macro   0x0000000000000000       0x22 ./src/control.o
- .debug_macro   0x0000000000000000       0x5e ./src/control.o
- .debug_macro   0x0000000000000000       0x18 ./src/control.o
- .debug_macro   0x0000000000000000       0x94 ./src/control.o
- .debug_macro   0x0000000000000000       0x35 ./src/control.o
- .debug_macro   0x0000000000000000       0x34 ./src/control.o
- .debug_macro   0x0000000000000000       0x16 ./src/control.o
- .debug_macro   0x0000000000000000       0x57 ./src/control.o
- .debug_macro   0x0000000000000000       0x97 ./src/control.o
- .debug_macro   0x0000000000000000      0x35c ./src/control.o
- .debug_macro   0x0000000000000000      0x104 ./src/control.o
- .debug_macro   0x0000000000000000       0x10 ./src/control.o
- .debug_macro   0x0000000000000000       0x16 ./src/control.o
- .debug_macro   0x0000000000000000       0x43 ./src/control.o
- .debug_macro   0x0000000000000000       0x34 ./src/control.o
- .debug_macro   0x0000000000000000       0x10 ./src/control.o
- .debug_macro   0x0000000000000000       0x58 ./src/control.o
- .debug_macro   0x0000000000000000      0x182 ./src/control.o
- .debug_macro   0x0000000000000000       0x10 ./src/control.o
- .debug_macro   0x0000000000000000       0x6a ./src/control.o
- .debug_macro   0x0000000000000000       0x1c ./src/control.o
- .debug_macro   0x0000000000000000       0x52 ./src/control.o
- .debug_macro   0x0000000000000000       0x22 ./src/control.o
- .debug_macro   0x0000000000000000       0x10 ./src/control.o
- .debug_macro   0x0000000000000000       0x40 ./src/control.o
- .debug_macro   0x0000000000000000       0xd5 ./src/control.o
- .debug_macro   0x0000000000000000       0x1c ./src/control.o
- .debug_macro   0x0000000000000000       0x3d ./src/control.o
- .debug_macro   0x0000000000000000       0x16 ./src/control.o
- .debug_macro   0x0000000000000000      0x137 ./src/control.o
- .debug_macro   0x0000000000000000       0x16 ./src/control.o
- .debug_macro   0x0000000000000000       0x35 ./src/control.o
- .debug_macro   0x0000000000000000      0x51a ./src/control.o
- .debug_line    0x0000000000000000      0x3f5 ./src/control.o
- .debug_str     0x0000000000000000     0x8666 ./src/control.o
+ .debug_line    0x0000000000000000       0x33 ./src/control.o
+ .debug_str     0x0000000000000000     0x30f2 ./src/control.o
  .comment       0x0000000000000000       0x4d ./src/control.o
- .debug_frame   0x0000000000000000       0x30 ./src/control.o
  .ARM.attributes
-                0x0000000000000000       0x2e ./src/control.o
+                0x0000000000000000       0x33 ./src/control.o
  .group         0x0000000000000000        0xc ./src/main.o
  .group         0x0000000000000000        0xc ./src/main.o
  .group         0x0000000000000000        0xc ./src/main.o
@@ -5879,6 +5834,8 @@ Discarded input sections
                 0x0000000000000000       0x1e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_mulsf3.o)
  .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubdf3.o)
  .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubdf3.o)
+ .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_truncdfsf2.o)
+ .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_truncdfsf2.o)
  .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubsf3.o)
  .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubsf3.o)
  .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldivsf3.o)
@@ -5907,18 +5864,65 @@ Discarded input sections
  .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
  .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
  .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
- .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-rand.o)
- .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-rand.o)
- .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-rand.o)
- .text.srand    0x0000000000000000       0x5c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-rand.o)
+ .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfscanf_float.o)
+ .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfscanf_float.o)
+ .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfscanf_float.o)
+ .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-sf_nan.o)
+ .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-sf_nan.o)
+ .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-sf_nan.o)
+ .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-sprintf.o)
+ .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-sprintf.o)
+ .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-sprintf.o)
+ .text._sprintf_r
+                0x0000000000000000       0x38 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-sprintf.o)
  .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strlen.o)
  .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strlen.o)
+ .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtod.o)
+ .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtod.o)
+ .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtod.o)
+ .text.strtod_l
+                0x0000000000000000       0x14 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtod.o)
+ .text.strtod   0x0000000000000000       0x18 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtod.o)
+ .text.strtof_l
+                0x0000000000000000       0xa0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtod.o)
+ .text.strtof   0x0000000000000000       0xa4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtod.o)
+ .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtol.o)
+ .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtol.o)
+ .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtol.o)
+ .text.strtol_l
+                0x0000000000000000       0x14 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtol.o)
+ .text.strtol   0x0000000000000000       0x14 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtol.o)
  .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-vsnprintf.o)
  .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-vsnprintf.o)
  .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-vsnprintf.o)
+ .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-ctype_.o)
+ .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-ctype_.o)
+ .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-ctype_.o)
  .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-dtoa.o)
  .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-dtoa.o)
  .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-dtoa.o)
+ .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-gdtoa-gethex.o)
+ .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-gdtoa-gethex.o)
+ .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-gdtoa-gethex.o)
+ .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-gdtoa-hexnan.o)
+ .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-gdtoa-hexnan.o)
+ .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-gdtoa-hexnan.o)
+ .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lnumeric.o)
+ .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lnumeric.o)
+ .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lnumeric.o)
+ .text.__numeric_load_locale
+                0x0000000000000000        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lnumeric.o)
+ .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-locale.o)
+ .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-locale.o)
+ .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-locale.o)
+ .text._setlocale_r
+                0x0000000000000000       0x40 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-locale.o)
+ .text.__locale_mb_cur_max
+                0x0000000000000000        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-locale.o)
+ .text.setlocale
+                0x0000000000000000       0x10 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-locale.o)
+ .bss._PathLocale
+                0x0000000000000000        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-locale.o)
  .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-localeconv.o)
  .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-localeconv.o)
  .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-localeconv.o)
@@ -5930,21 +5934,18 @@ Discarded input sections
  .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-malloc.o)
  .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-malloc.o)
  .text.free     0x0000000000000000       0x10 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-malloc.o)
+ .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mbtowc_r.o)
+ .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mbtowc_r.o)
+ .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mbtowc_r.o)
+ .text._mbtowc_r
+                0x0000000000000000       0x14 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mbtowc_r.o)
  .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memchr.o)
  .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memchr.o)
  .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
  .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
  .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
- .text.__s2b    0x0000000000000000       0x94 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
- .text.__ulp    0x0000000000000000       0x4c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
- .text.__b2d    0x0000000000000000       0xa8 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
- .text.__ratio  0x0000000000000000       0x5c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
  .text._mprec_log10
                 0x0000000000000000       0x38 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
- .text.__copybits
-                0x0000000000000000       0x46 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
- .text.__any_on
-                0x0000000000000000       0x42 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
  .rodata.__mprec_tinytens
                 0x0000000000000000       0x28 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
  .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-callocr.o)
@@ -5961,25 +5962,26 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-svfprintf.o)
  .text.__ssprint_r
                 0x0000000000000000       0xf6 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-svfprintf.o)
+ .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-s_nan.o)
+ .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-s_nan.o)
+ .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-s_nan.o)
  .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-sbrkr.o)
  .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-sbrkr.o)
  .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-sbrkr.o)
- .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-locale.o)
- .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-locale.o)
- .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-locale.o)
- .text._setlocale_r
-                0x0000000000000000       0x40 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-locale.o)
- .text.__locale_mb_cur_max
-                0x0000000000000000        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-locale.o)
- .text.setlocale
-                0x0000000000000000       0x10 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-locale.o)
- .bss._PathLocale
-                0x0000000000000000        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-locale.o)
- .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mbtowc_r.o)
- .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mbtowc_r.o)
- .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mbtowc_r.o)
- .text._mbtowc_r
-                0x0000000000000000       0x14 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mbtowc_r.o)
+ .text          0x0000000000000000       0x14 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strcmp.o)
+ .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strcmp.o)
+ .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strcmp.o)
+ .debug_frame   0x0000000000000000       0x20 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x0000000000000000       0x1c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strcmp.o)
+ .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strncmp.o)
+ .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strncmp.o)
+ .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strncmp.o)
+ .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-wctomb_r.o)
+ .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-wctomb_r.o)
+ .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-wctomb_r.o)
+ .text._wctomb_r
+                0x0000000000000000       0x14 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-wctomb_r.o)
  .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memmove.o)
  .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memmove.o)
  .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memmove.o)
@@ -5989,20 +5991,6 @@ Discarded input sections
  .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-reallocr.o)
  .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-reallocr.o)
  .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-reallocr.o)
- .text          0x0000000000000000       0x14 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strcmp.o)
- .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strcmp.o)
- .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strcmp.o)
- .debug_frame   0x0000000000000000       0x20 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strcmp.o)
- .ARM.attributes
-                0x0000000000000000       0x1c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strcmp.o)
- .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-wctomb_r.o)
- .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-wctomb_r.o)
- .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-wctomb_r.o)
- .text._wctomb_r
-                0x0000000000000000       0x14 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-wctomb_r.o)
- .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-ctype_.o)
- .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-ctype_.o)
- .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-ctype_.o)
  .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lock.o)
  .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lock.o)
  .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lock.o)
@@ -6039,6 +6027,18 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_unorddf2.o)
  .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_fixdfsi.o)
  .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_fixdfsi.o)
+ .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_fixunsdfsi.o)
+ .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_fixunsdfsi.o)
+ .text          0x0000000000000000       0x2c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_unordsf2.o)
+ .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_unordsf2.o)
+ .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_unordsf2.o)
+ .debug_frame   0x0000000000000000       0x24 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_unordsf2.o)
+ .ARM.attributes
+                0x0000000000000000       0x1e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_unordsf2.o)
+ .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_fixdfdi.o)
+ .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_fixdfdi.o)
+ .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_fixunsdfdi.o)
+ .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_fixunsdfdi.o)
 
 Memory Configuration
 
@@ -6118,7 +6118,7 @@ END GROUP
                 0x000000002001fc00                __Main_Stack_Limit = (__stack - __Main_Stack_Size)
                 [!provide]                        PROVIDE (_Main_Stack_Limit = __Main_Stack_Limit)
                 0x0000000000000100                _Minimum_Stack_Size = 0x100
-                0x00000000200020cc                PROVIDE (_Heap_Begin = _end_noinit)
+                0x00000000200017f0                PROVIDE (_Heap_Begin = _end_noinit)
                 0x000000002001fc00                PROVIDE (_Heap_Limit = (__stack - __Main_Stack_Size))
 
 .isr_vector     0x0000000008000000      0x3e8
@@ -6232,16 +6232,16 @@ END GROUP
 
 .inits          0x00000000080003e8       0x2c
                 0x00000000080003e8                __data_regions_array_start = .
-                0x00000000080003e8        0x4 LONG 0x80067a0 LOADADDR (.data)
+                0x00000000080003e8        0x4 LONG 0x8008438 LOADADDR (.data)
                 0x00000000080003ec        0x4 LONG 0x20000000 ADDR (.data)
-                0x00000000080003f0        0x4 LONG 0x20000e1c (ADDR (.data) + SIZEOF (.data))
-                0x00000000080003f4        0x4 LONG 0x80067a0 LOADADDR (.data_CCMRAM)
+                0x00000000080003f0        0x4 LONG 0x20000544 (ADDR (.data) + SIZEOF (.data))
+                0x00000000080003f4        0x4 LONG 0x8008438 LOADADDR (.data_CCMRAM)
                 0x00000000080003f8        0x4 LONG 0x10000000 ADDR (.data_CCMRAM)
                 0x00000000080003fc        0x4 LONG 0x10000000 (ADDR (.data_CCMRAM) + SIZEOF (.data_CCMRAM))
                 0x0000000008000400                __data_regions_array_end = .
                 0x0000000008000400                __bss_regions_array_start = .
-                0x0000000008000400        0x4 LONG 0x20001d94 ADDR (.bss)
-                0x0000000008000404        0x4 LONG 0x200020cc (ADDR (.bss) + SIZEOF (.bss))
+                0x0000000008000400        0x4 LONG 0x200014bc ADDR (.bss)
+                0x0000000008000404        0x4 LONG 0x200017f0 (ADDR (.bss) + SIZEOF (.bss))
                 0x0000000008000408        0x4 LONG 0x10000000 ADDR (.bss_CCMRAM)
                 0x000000000800040c        0x4 LONG 0x10000000 (ADDR (.bss_CCMRAM) + SIZEOF (.bss_CCMRAM))
                 0x0000000008000410                __bss_regions_array_end = .
@@ -6268,7 +6268,7 @@ END GROUP
 .flashtext
  *(.flashtext .flashtext.*)
 
-.text           0x0000000008000420     0x6380
+.text           0x0000000008000420     0x8015
  *(.text .text.*)
  .text.HAL_InitTick
                 0x0000000008000420       0x2c ./system/src/stm32f4-hal/stm32f4xx_hal.o
@@ -6528,41 +6528,40 @@ END GROUP
                 0x0000000008002852                BlinkLed::BlinkLed(unsigned int, unsigned int, bool)
                 0x0000000008002852                BlinkLed::BlinkLed(unsigned int, unsigned int, bool)
  *fill*         0x0000000008002866        0x2 
- .text._ZN6LookUp7findkeyEv
-                0x0000000008002868      0x160 ./src/LookUp.o
-                0x0000000008002868                LookUp::findkey()
+ .text._ZN6LookUp7findkeyEf
+                0x0000000008002868       0x88 ./src/LookUp.o
+                0x0000000008002868                LookUp::findkey(float)
  .text.SystemClock_Config
-                0x00000000080029c8       0x9c ./src/_initialize_hardware.o
-                0x00000000080029c8                SystemClock_Config
+                0x00000000080028f0       0x9c ./src/_initialize_hardware.o
+                0x00000000080028f0                SystemClock_Config
  .text.__initialize_hardware
-                0x0000000008002a64       0x16 ./src/_initialize_hardware.o
-                0x0000000008002a64                __initialize_hardware
- *fill*         0x0000000008002a7a        0x2 
- .text._Z9task1funcPv
-                0x0000000008002a7c       0xf4 ./src/main.o
-                0x0000000008002a7c                task1func(void*)
+                0x000000000800298c       0x16 ./src/_initialize_hardware.o
+                0x000000000800298c                __initialize_hardware
  .text._Z9task2funcPv
-                0x0000000008002b70       0x30 ./src/main.o
-                0x0000000008002b70                task2func(void*)
+                0x00000000080029a2        0xa ./src/main.o
+                0x00000000080029a2                task2func(void*)
+ *fill*         0x00000000080029ac        0x4 
+ .text._Z9task1funcPv
+                0x00000000080029b0      0x1ec ./src/main.o
+                0x00000000080029b0                task1func(void*)
  .text._Z41__static_initialization_and_destruction_0ii
-                0x0000000008002ba0       0x50 ./src/main.o
- .text.main     0x0000000008002bf0       0x5c ./src/main.o
-                0x0000000008002bf0                main
+                0x0000000008002b9c       0x50 ./src/main.o
+ .text.main     0x0000000008002bec       0x5c ./src/main.o
+                0x0000000008002bec                main
  .text._GLOBAL__sub_I_blinkLeds
-                0x0000000008002c4c        0xe ./src/main.o
+                0x0000000008002c48        0xe ./src/main.o
  .text._ZN3pid8pid_taskEff
-                0x0000000008002c5a       0x9e ./src/pid.o
-                0x0000000008002c5a                pid::pid_task(float, float)
+                0x0000000008002c56       0xa4 ./src/pid.o
+                0x0000000008002c56                pid::pid_task(float, float)
  .text.vApplicationTickHook
-                0x0000000008002cf8        0x2 ./src/rtoshook.o
-                0x0000000008002cf8                vApplicationTickHook
- .text.vApplicationIdleHook
                 0x0000000008002cfa        0x2 ./src/rtoshook.o
-                0x0000000008002cfa                vApplicationIdleHook
+                0x0000000008002cfa                vApplicationTickHook
+ .text.vApplicationIdleHook
+                0x0000000008002cfc        0x2 ./src/rtoshook.o
+                0x0000000008002cfc                vApplicationIdleHook
  .text.vApplicationStackOverflowHook
-                0x0000000008002cfc       0x12 ./src/rtoshook.o
-                0x0000000008002cfc                vApplicationStackOverflowHook
- *fill*         0x0000000008002d0e        0x2 
+                0x0000000008002cfe       0x12 ./src/rtoshook.o
+                0x0000000008002cfe                vApplicationStackOverflowHook
  .text.vApplicationGetIdleTaskMemory
                 0x0000000008002d10       0x14 ./src/rtoshook.o
                 0x0000000008002d10                vApplicationGetIdleTaskMemory
@@ -6575,336 +6574,420 @@ END GROUP
  .text._Z6getRPMv
                 0x0000000008002d5c       0x20 ./src/sensor.o
                 0x0000000008002d5c                getRPM()
- .text._Z11getThrottlev
+ .text._Z9getSheathv
                 0x0000000008002d7c       0x20 ./src/sensor.o
-                0x0000000008002d7c                getThrottle()
- .text._Z9getTorquev
-                0x0000000008002d9c       0x20 ./src/sensor.o
-                0x0000000008002d9c                getTorque()
+                0x0000000008002d7c                getSheath()
+ .text._Z11getThrottlev
+                0x0000000008002d9c       0x1c ./src/sensor.o
+                0x0000000008002d9c                getThrottle()
  .text.HAL_MspInit
-                0x0000000008002dbc        0x2 ./src/stm32f4xx_hal_msp.o
-                0x0000000008002dbc                HAL_MspInit
- *fill*         0x0000000008002dbe        0x2 
- .text          0x0000000008002dc0      0x378 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubdf3.o)
-                0x0000000008002dc0                __aeabi_drsub
-                0x0000000008002dc8                __aeabi_dsub
-                0x0000000008002dc8                __subdf3
-                0x0000000008002dcc                __adddf3
-                0x0000000008002dcc                __aeabi_dadd
-                0x0000000008003044                __aeabi_ui2d
-                0x0000000008003044                __floatunsidf
-                0x0000000008003064                __floatsidf
-                0x0000000008003064                __aeabi_i2d
-                0x0000000008003088                __extendsfdf2
-                0x0000000008003088                __aeabi_f2d
-                0x00000000080030cc                __aeabi_ul2d
-                0x00000000080030cc                __floatundidf
-                0x00000000080030dc                __floatdidf
-                0x00000000080030dc                __aeabi_l2d
- .text          0x0000000008003138      0x21c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubsf3.o)
-                0x0000000008003138                __aeabi_frsub
-                0x0000000008003140                __subsf3
-                0x0000000008003140                __aeabi_fsub
-                0x0000000008003144                __aeabi_fadd
-                0x0000000008003144                __addsf3
-                0x00000000080032a4                __aeabi_ui2f
-                0x00000000080032a4                __floatunsisf
-                0x00000000080032ac                __aeabi_i2f
-                0x00000000080032ac                __floatsisf
-                0x00000000080032c8                __floatundisf
-                0x00000000080032c8                __aeabi_ul2f
-                0x00000000080032d8                __floatdisf
-                0x00000000080032d8                __aeabi_l2f
- .text          0x0000000008003354      0x2a0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldivsf3.o)
-                0x0000000008003354                __mulsf3
-                0x0000000008003354                __aeabi_fmul
-                0x00000000080034bc                __divsf3
-                0x00000000080034bc                __aeabi_fdiv
- .text          0x00000000080035f4       0xec /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpsf2.o)
-                0x00000000080035f4                __gtsf2
-                0x00000000080035f4                __gesf2
-                0x00000000080035fc                __lesf2
-                0x00000000080035fc                __ltsf2
-                0x0000000008003604                __nesf2
-                0x0000000008003604                __eqsf2
-                0x0000000008003604                __cmpsf2
-                0x0000000008003664                __aeabi_cfrcmple
-                0x000000000800366c                __aeabi_cfcmple
-                0x000000000800366c                __aeabi_cfcmpeq
-                0x000000000800367c                __aeabi_fcmpeq
-                0x0000000008003690                __aeabi_fcmplt
-                0x00000000080036a4                __aeabi_fcmple
-                0x00000000080036b8                __aeabi_fcmpge
-                0x00000000080036cc                __aeabi_fcmpgt
- .text          0x00000000080036e0       0x4c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_fixsfsi.o)
-                0x00000000080036e0                __fixsfsi
-                0x00000000080036e0                __aeabi_f2iz
- .text.__errno  0x000000000800372c        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-errno.o)
-                0x000000000800372c                __errno
- .text.memcpy   0x0000000008003738       0x1c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
-                0x0000000008003738                memcpy
- .text.memset   0x0000000008003754       0x10 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memset.o)
-                0x0000000008003754                memset
- .text.__cvt    0x0000000008003764       0xc0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_float.o)
-                0x0000000008003764                __cvt
+                0x0000000008002db8        0x2 ./src/stm32f4xx_hal_msp.o
+                0x0000000008002db8                HAL_MspInit
+ *fill*         0x0000000008002dba        0x2 
+ .text          0x0000000008002dbc      0x378 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubdf3.o)
+                0x0000000008002dbc                __aeabi_drsub
+                0x0000000008002dc4                __aeabi_dsub
+                0x0000000008002dc4                __subdf3
+                0x0000000008002dc8                __adddf3
+                0x0000000008002dc8                __aeabi_dadd
+                0x0000000008003040                __aeabi_ui2d
+                0x0000000008003040                __floatunsidf
+                0x0000000008003060                __floatsidf
+                0x0000000008003060                __aeabi_i2d
+                0x0000000008003084                __extendsfdf2
+                0x0000000008003084                __aeabi_f2d
+                0x00000000080030c8                __aeabi_ul2d
+                0x00000000080030c8                __floatundidf
+                0x00000000080030d8                __floatdidf
+                0x00000000080030d8                __aeabi_l2d
+ .text          0x0000000008003134       0xa0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_truncdfsf2.o)
+                0x0000000008003134                __aeabi_d2f
+                0x0000000008003134                __truncdfsf2
+ .text          0x00000000080031d4      0x21c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubsf3.o)
+                0x00000000080031d4                __aeabi_frsub
+                0x00000000080031dc                __subsf3
+                0x00000000080031dc                __aeabi_fsub
+                0x00000000080031e0                __aeabi_fadd
+                0x00000000080031e0                __addsf3
+                0x0000000008003340                __aeabi_ui2f
+                0x0000000008003340                __floatunsisf
+                0x0000000008003348                __aeabi_i2f
+                0x0000000008003348                __floatsisf
+                0x0000000008003364                __floatundisf
+                0x0000000008003364                __aeabi_ul2f
+                0x0000000008003374                __floatdisf
+                0x0000000008003374                __aeabi_l2f
+ .text          0x00000000080033f0      0x2a0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldivsf3.o)
+                0x00000000080033f0                __mulsf3
+                0x00000000080033f0                __aeabi_fmul
+                0x0000000008003558                __divsf3
+                0x0000000008003558                __aeabi_fdiv
+ .text          0x0000000008003690       0xec /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpsf2.o)
+                0x0000000008003690                __gtsf2
+                0x0000000008003690                __gesf2
+                0x0000000008003698                __lesf2
+                0x0000000008003698                __ltsf2
+                0x00000000080036a0                __nesf2
+                0x00000000080036a0                __eqsf2
+                0x00000000080036a0                __cmpsf2
+                0x0000000008003700                __aeabi_cfrcmple
+                0x0000000008003708                __aeabi_cfcmple
+                0x0000000008003708                __aeabi_cfcmpeq
+                0x0000000008003718                __aeabi_fcmpeq
+                0x000000000800372c                __aeabi_fcmplt
+                0x0000000008003740                __aeabi_fcmple
+                0x0000000008003754                __aeabi_fcmpge
+                0x0000000008003768                __aeabi_fcmpgt
+ .text          0x000000000800377c       0x4c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_fixsfsi.o)
+                0x000000000800377c                __fixsfsi
+                0x000000000800377c                __aeabi_f2iz
+ .text.__errno  0x00000000080037c8        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-errno.o)
+                0x00000000080037c8                __errno
+ .text.memcpy   0x00000000080037d4       0x1c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+                0x00000000080037d4                memcpy
+ .text.memset   0x00000000080037f0       0x10 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memset.o)
+                0x00000000080037f0                memset
+ .text.__cvt    0x0000000008003800       0xc0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_float.o)
+                0x0000000008003800                __cvt
  .text.__exponent
-                0x0000000008003824       0x7c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_float.o)
-                0x0000000008003824                __exponent
+                0x00000000080038c0       0x7c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_float.o)
+                0x00000000080038c0                __exponent
  .text._printf_float
-                0x00000000080038a0      0x454 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_float.o)
-                0x00000000080038a0                _printf_float
+                0x000000000800393c      0x454 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_float.o)
+                0x000000000800393c                _printf_float
  .text._printf_common
-                0x0000000008003cf4       0xda /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
-                0x0000000008003cf4                _printf_common
- *fill*         0x0000000008003dce        0x2 
+                0x0000000008003d90       0xda /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000008003d90                _printf_common
+ *fill*         0x0000000008003e6a        0x2 
  .text._printf_i
-                0x0000000008003dd0      0x24c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
-                0x0000000008003dd0                _printf_i
- .text.rand     0x000000000800401c       0x80 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-rand.o)
-                0x000000000800401c                rand
- .text          0x000000000800409c       0x10 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strlen.o)
-                0x000000000800409c                strlen
+                0x0000000008003e6c      0x24c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000008003e6c                _printf_i
+ .text._scanf_float
+                0x00000000080040b8      0x420 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfscanf_float.o)
+                0x00000000080040b8                _scanf_float
+ .text.nanf     0x00000000080044d8        0x8 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-sf_nan.o)
+                0x00000000080044d8                nanf
+ .text.sprintf  0x00000000080044e0       0x40 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-sprintf.o)
+                0x00000000080044e0                sprintf
+                0x00000000080044e0                siprintf
+ .text          0x0000000008004520       0x10 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strlen.o)
+                0x0000000008004520                strlen
+ .text.sulp     0x0000000008004530       0x42 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtod.o)
+ *fill*         0x0000000008004572        0x6 
+ .text._strtod_l
+                0x0000000008004578      0xbe8 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtod.o)
+                0x0000000008004578                _strtod_l
+ .text._strtod_r
+                0x0000000008005160        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtod.o)
+                0x0000000008005160                _strtod_r
+ .text._strtol_l.isra.0
+                0x000000000800516c      0x10c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtol.o)
+ .text._strtol_r
+                0x0000000008005278        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtol.o)
+                0x0000000008005278                _strtol_r
  .text._vsnprintf_r
-                0x00000000080040ac       0x58 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-vsnprintf.o)
-                0x00000000080040ac                _vsnprintf_r
-                0x00000000080040ac                _vsniprintf_r
+                0x000000000800527c       0x58 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-vsnprintf.o)
+                0x000000000800527c                _vsnprintf_r
+                0x000000000800527c                _vsniprintf_r
  .text.vsnprintf
-                0x0000000008004104       0x1c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-vsnprintf.o)
-                0x0000000008004104                vsnprintf
-                0x0000000008004104                vsniprintf
- .text.quorem   0x0000000008004120      0x116 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-dtoa.o)
- *fill*         0x0000000008004236        0x2 
- .text._dtoa_r  0x0000000008004238      0xbdc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-dtoa.o)
-                0x0000000008004238                _dtoa_r
+                0x00000000080052d4       0x1c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-vsnprintf.o)
+                0x00000000080052d4                vsnprintf
+                0x00000000080052d4                vsniprintf
+ .text.quorem   0x00000000080052f0      0x116 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-dtoa.o)
+ *fill*         0x0000000008005406        0x2 
+ .text._dtoa_r  0x0000000008005408      0xbdc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-dtoa.o)
+                0x0000000008005408                _dtoa_r
+ .text.rshift   0x0000000008005fe4       0xa4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-gdtoa-gethex.o)
+ .text.__hexdig_fun
+                0x0000000008006088       0x2a /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-gdtoa-gethex.o)
+                0x0000000008006088                __hexdig_fun
+ *fill*         0x00000000080060b2        0x2 
+ .text.__gethex
+                0x00000000080060b4      0x474 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-gdtoa-gethex.o)
+                0x00000000080060b4                __gethex
+ .text.L_shift  0x0000000008006528       0x24 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-gdtoa-hexnan.o)
+ .text.__match  0x000000000800654c       0x28 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-gdtoa-hexnan.o)
+                0x000000000800654c                __match
+ .text.__hexnan
+                0x0000000008006574      0x138 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-gdtoa-hexnan.o)
+                0x0000000008006574                __hexnan
  .text._localeconv_r
-                0x0000000008004e14        0x8 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-localeconv.o)
-                0x0000000008004e14                _localeconv_r
- .text.malloc   0x0000000008004e1c       0x10 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-malloc.o)
-                0x0000000008004e1c                malloc
- *fill*         0x0000000008004e2c        0x4 
- .text          0x0000000008004e30       0xa0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memchr.o)
-                0x0000000008004e30                memchr
- .text._Balloc  0x0000000008004ed0       0x80 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
-                0x0000000008004ed0                _Balloc
- .text._Bfree   0x0000000008004f50       0x44 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
-                0x0000000008004f50                _Bfree
- .text.__multadd
-                0x0000000008004f94       0x94 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
-                0x0000000008004f94                __multadd
- .text.__hi0bits
-                0x0000000008005028       0x40 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
-                0x0000000008005028                __hi0bits
- .text.__lo0bits
-                0x0000000008005068       0x5c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
-                0x0000000008005068                __lo0bits
- .text.__i2b    0x00000000080050c4       0x2c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
-                0x00000000080050c4                __i2b
- .text.__multiply
-                0x00000000080050f0      0x14c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
-                0x00000000080050f0                __multiply
- .text.__pow5mult
-                0x000000000800523c       0xb4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
-                0x000000000800523c                __pow5mult
- .text.__lshift
-                0x00000000080052f0       0xd8 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
-                0x00000000080052f0                __lshift
- .text.__mcmp   0x00000000080053c8       0x36 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
-                0x00000000080053c8                __mcmp
- *fill*         0x00000000080053fe        0x2 
- .text.__mdiff  0x0000000008005400      0x114 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
-                0x0000000008005400                __mdiff
- .text.__d2b    0x0000000008005514       0xb8 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
-                0x0000000008005514                __d2b
- .text._calloc_r
-                0x00000000080055cc       0x1c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-callocr.o)
-                0x00000000080055cc                _calloc_r
- .text._free_r  0x00000000080055e8       0x9c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-freer.o)
-                0x00000000080055e8                _free_r
- .text._malloc_r
-                0x0000000008005684       0xb4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
-                0x0000000008005684                _malloc_r
- .text.__ssputs_r
-                0x0000000008005738       0xb6 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-svfprintf.o)
-                0x0000000008005738                __ssputs_r
- *fill*         0x00000000080057ee        0x2 
- .text._svfprintf_r
-                0x00000000080057f0      0x200 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-svfprintf.o)
-                0x00000000080057f0                _svfprintf_r
-                0x00000000080057f0                _svfiprintf_r
- .text._sbrk_r  0x00000000080059f0       0x20 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-sbrkr.o)
-                0x00000000080059f0                _sbrk_r
+                0x00000000080066ac        0x8 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-localeconv.o)
+                0x00000000080066ac                _localeconv_r
+ .text.malloc   0x00000000080066b4       0x10 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-malloc.o)
+                0x00000000080066b4                malloc
  .text.__ascii_mbtowc
-                0x0000000008005a10       0x24 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mbtowc_r.o)
-                0x0000000008005a10                __ascii_mbtowc
- .text.memmove  0x0000000008005a34       0x34 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memmove.o)
-                0x0000000008005a34                memmove
- .text.__malloc_lock
-                0x0000000008005a68        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mlock.o)
-                0x0000000008005a68                __malloc_lock
- .text.__malloc_unlock
-                0x0000000008005a74        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mlock.o)
-                0x0000000008005a74                __malloc_unlock
- .text._realloc_r
-                0x0000000008005a80       0x4c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-reallocr.o)
-                0x0000000008005a80                _realloc_r
+                0x00000000080066c4       0x24 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mbtowc_r.o)
+                0x00000000080066c4                __ascii_mbtowc
+ *fill*         0x00000000080066e8        0x8 
+ .text          0x00000000080066f0       0xa0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memchr.o)
+                0x00000000080066f0                memchr
+ .text._Balloc  0x0000000008006790       0x80 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
+                0x0000000008006790                _Balloc
+ .text._Bfree   0x0000000008006810       0x44 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
+                0x0000000008006810                _Bfree
+ .text.__multadd
+                0x0000000008006854       0x94 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
+                0x0000000008006854                __multadd
+ .text.__s2b    0x00000000080068e8       0x94 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
+                0x00000000080068e8                __s2b
+ .text.__hi0bits
+                0x000000000800697c       0x40 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
+                0x000000000800697c                __hi0bits
+ .text.__lo0bits
+                0x00000000080069bc       0x5c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
+                0x00000000080069bc                __lo0bits
+ .text.__i2b    0x0000000008006a18       0x2c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
+                0x0000000008006a18                __i2b
+ .text.__multiply
+                0x0000000008006a44      0x14c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
+                0x0000000008006a44                __multiply
+ .text.__pow5mult
+                0x0000000008006b90       0xb4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
+                0x0000000008006b90                __pow5mult
+ .text.__lshift
+                0x0000000008006c44       0xd8 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
+                0x0000000008006c44                __lshift
+ .text.__mcmp   0x0000000008006d1c       0x36 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
+                0x0000000008006d1c                __mcmp
+ *fill*         0x0000000008006d52        0x2 
+ .text.__mdiff  0x0000000008006d54      0x114 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
+                0x0000000008006d54                __mdiff
+ .text.__ulp    0x0000000008006e68       0x4c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
+                0x0000000008006e68                __ulp
+ .text.__b2d    0x0000000008006eb4       0xa8 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
+                0x0000000008006eb4                __b2d
+ .text.__d2b    0x0000000008006f5c       0xb8 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
+                0x0000000008006f5c                __d2b
+ .text.__ratio  0x0000000008007014       0x5c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
+                0x0000000008007014                __ratio
+ .text.__copybits
+                0x0000000008007070       0x46 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
+                0x0000000008007070                __copybits
+ .text.__any_on
+                0x00000000080070b6       0x42 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
+                0x00000000080070b6                __any_on
+ .text._calloc_r
+                0x00000000080070f8       0x1c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-callocr.o)
+                0x00000000080070f8                _calloc_r
+ .text._free_r  0x0000000008007114       0x9c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-freer.o)
+                0x0000000008007114                _free_r
+ .text._malloc_r
+                0x00000000080071b0       0xb4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
+                0x00000000080071b0                _malloc_r
+ .text.__ssputs_r
+                0x0000000008007264       0xb6 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-svfprintf.o)
+                0x0000000008007264                __ssputs_r
+ *fill*         0x000000000800731a        0x2 
+ .text._svfprintf_r
+                0x000000000800731c      0x200 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-svfprintf.o)
+                0x000000000800731c                _svfprintf_r
+                0x000000000800731c                _svfiprintf_r
+ .text.nan      0x000000000800751c        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-s_nan.o)
+                0x000000000800751c                nan
+ .text._sbrk_r  0x0000000008007528       0x20 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-sbrkr.o)
+                0x0000000008007528                _sbrk_r
+ .text.strncmp  0x0000000008007548       0x24 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strncmp.o)
+                0x0000000008007548                strncmp
  .text.__ascii_wctomb
-                0x0000000008005acc       0x1a /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-wctomb_r.o)
-                0x0000000008005acc                __ascii_wctomb
+                0x000000000800756c       0x1a /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-wctomb_r.o)
+                0x000000000800756c                __ascii_wctomb
+ .text.memmove  0x0000000008007586       0x34 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memmove.o)
+                0x0000000008007586                memmove
+ *fill*         0x00000000080075ba        0x2 
+ .text.__malloc_lock
+                0x00000000080075bc        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mlock.o)
+                0x00000000080075bc                __malloc_lock
+ .text.__malloc_unlock
+                0x00000000080075c8        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mlock.o)
+                0x00000000080075c8                __malloc_unlock
+ .text._realloc_r
+                0x00000000080075d4       0x4c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-reallocr.o)
+                0x00000000080075d4                _realloc_r
  .text.__retarget_lock_acquire_recursive
-                0x0000000008005ae6        0x2 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lock.o)
-                0x0000000008005ae6                __retarget_lock_acquire_recursive
+                0x0000000008007620        0x2 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lock.o)
+                0x0000000008007620                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x0000000008005ae8        0x2 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lock.o)
-                0x0000000008005ae8                __retarget_lock_release_recursive
+                0x0000000008007622        0x2 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lock.o)
+                0x0000000008007622                __retarget_lock_release_recursive
  .text._malloc_usable_size_r
-                0x0000000008005aea       0x10 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-msizer.o)
-                0x0000000008005aea                _malloc_usable_size_r
- *fill*         0x0000000008005afa        0x2 
- .text          0x0000000008005afc      0x424 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldivdf3.o)
-                0x0000000008005afc                __aeabi_dmul
-                0x0000000008005afc                __muldf3
-                0x0000000008005d50                __aeabi_ddiv
-                0x0000000008005d50                __divdf3
- .text          0x0000000008005f20      0x110 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpdf2.o)
-                0x0000000008005f20                __gtdf2
-                0x0000000008005f20                __gedf2
-                0x0000000008005f28                __ltdf2
-                0x0000000008005f28                __ledf2
-                0x0000000008005f30                __cmpdf2
-                0x0000000008005f30                __eqdf2
-                0x0000000008005f30                __nedf2
-                0x0000000008005fac                __aeabi_cdrcmple
-                0x0000000008005fbc                __aeabi_cdcmple
-                0x0000000008005fbc                __aeabi_cdcmpeq
-                0x0000000008005fcc                __aeabi_dcmpeq
-                0x0000000008005fe0                __aeabi_dcmplt
-                0x0000000008005ff4                __aeabi_dcmple
-                0x0000000008006008                __aeabi_dcmpge
-                0x000000000800601c                __aeabi_dcmpgt
- .text          0x0000000008006030       0x2c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_unorddf2.o)
-                0x0000000008006030                __aeabi_dcmpun
-                0x0000000008006030                __unorddf2
- .text          0x000000000800605c       0x50 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_fixdfsi.o)
-                0x000000000800605c                __fixdfsi
-                0x000000000800605c                __aeabi_d2iz
+                0x0000000008007624       0x10 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-msizer.o)
+                0x0000000008007624                _malloc_usable_size_r
+ .text          0x0000000008007634      0x424 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldivdf3.o)
+                0x0000000008007634                __aeabi_dmul
+                0x0000000008007634                __muldf3
+                0x0000000008007888                __aeabi_ddiv
+                0x0000000008007888                __divdf3
+ .text          0x0000000008007a58      0x110 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpdf2.o)
+                0x0000000008007a58                __gtdf2
+                0x0000000008007a58                __gedf2
+                0x0000000008007a60                __ltdf2
+                0x0000000008007a60                __ledf2
+                0x0000000008007a68                __cmpdf2
+                0x0000000008007a68                __eqdf2
+                0x0000000008007a68                __nedf2
+                0x0000000008007ae4                __aeabi_cdrcmple
+                0x0000000008007af4                __aeabi_cdcmple
+                0x0000000008007af4                __aeabi_cdcmpeq
+                0x0000000008007b04                __aeabi_dcmpeq
+                0x0000000008007b18                __aeabi_dcmplt
+                0x0000000008007b2c                __aeabi_dcmple
+                0x0000000008007b40                __aeabi_dcmpge
+                0x0000000008007b54                __aeabi_dcmpgt
+ .text          0x0000000008007b68       0x2c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_unorddf2.o)
+                0x0000000008007b68                __aeabi_dcmpun
+                0x0000000008007b68                __unorddf2
+ .text          0x0000000008007b94       0x50 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_fixdfsi.o)
+                0x0000000008007b94                __fixdfsi
+                0x0000000008007b94                __aeabi_d2iz
+ .text          0x0000000008007be4       0x40 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_fixunsdfsi.o)
+                0x0000000008007be4                __fixunsdfsi
+                0x0000000008007be4                __aeabi_d2uiz
+ .text          0x0000000008007c24       0x34 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_fixdfdi.o)
+                0x0000000008007c24                __aeabi_d2lz
+                0x0000000008007c24                __fixdfdi
+ .text          0x0000000008007c58       0x3c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_fixunsdfdi.o)
+                0x0000000008007c58                __aeabi_d2ulz
+                0x0000000008007c58                __fixunsdfdi
  *(.rodata .rodata.* .constdata .constdata.*)
  .rodata.HAL_NVIC_SetPriorityGrouping.str1.4
-                0x00000000080060ac       0x31 ./system/src/stm32f4-hal/stm32f4xx_hal_cortex.o
- *fill*         0x00000000080060dd        0x3 
+                0x0000000008007c94       0x31 ./system/src/stm32f4-hal/stm32f4xx_hal_cortex.o
+ *fill*         0x0000000008007cc5        0x3 
  .rodata.HAL_RCC_OscConfig.str1.4
-                0x00000000080060e0       0x2e ./system/src/stm32f4-hal/stm32f4xx_hal_rcc.o
- *fill*         0x000000000800610e        0x2 
+                0x0000000008007cc8       0x2e ./system/src/stm32f4-hal/stm32f4xx_hal_rcc.o
+ *fill*         0x0000000008007cf6        0x2 
  .rodata.APBAHBPrescTable
-                0x0000000008006110       0x10 ./system/src/stm32f4-hal/stm32f4xx_hal_rcc.o
-                0x0000000008006110                APBAHBPrescTable
+                0x0000000008007cf8       0x10 ./system/src/stm32f4-hal/stm32f4xx_hal_rcc.o
+                0x0000000008007cf8                APBAHBPrescTable
  .rodata.abort.str1.4
-                0x0000000008006120       0x14 ./system/src/newlib/_exit.o
+                0x0000000008007d08       0x14 ./system/src/newlib/_exit.o
  .rodata.__assert_func.str1.4
-                0x0000000008006134       0x3f ./system/src/newlib/assert.o
+                0x0000000008007d1c       0x3f ./system/src/newlib/assert.o
                                          0x43 (size before relaxing)
- *fill*         0x0000000008006173        0x1 
+ *fill*         0x0000000008007d5b        0x1 
  .rodata.assert_failed.str1.4
-                0x0000000008006174       0x2b ./system/src/newlib/assert.o
+                0x0000000008007d5c       0x2b ./system/src/newlib/assert.o
  .rodata.trace_puts.str1.4
-                0x000000000800619f       0x2b ./system/src/diag/Trace.o
+                0x0000000008007d87       0x2b ./system/src/diag/Trace.o
                                           0x2 (size before relaxing)
- *fill*         0x000000000800619f        0x1 
+ *fill*         0x0000000008007d87        0x1 
  .rodata.dumpExceptionStack.str1.4
-                0x00000000080061a0      0x11a ./system/src/cortexm/exception_handlers.o
- *fill*         0x00000000080062ba        0x2 
+                0x0000000008007d88      0x11a ./system/src/cortexm/exception_handlers.o
+ *fill*         0x0000000008007ea2        0x2 
  .rodata.str1.4
-                0x00000000080062bc       0x2a ./system/src/cortexm/exception_handlers.o
- *fill*         0x00000000080062e6        0x2 
+                0x0000000008007ea4       0x2a ./system/src/cortexm/exception_handlers.o
+ *fill*         0x0000000008007ece        0x2 
  .rodata.AHBPrescTable
-                0x00000000080062e8       0x10 ./system/src/cmsis/system_stm32f4xx.o
-                0x00000000080062e8                AHBPrescTable
+                0x0000000008007ed0       0x10 ./system/src/cmsis/system_stm32f4xx.o
+                0x0000000008007ed0                AHBPrescTable
  .rodata.vTaskStartScheduler.str1.4
-                0x00000000080062f8        0x5 ./src/FreeRTOS/tasks.o
- *fill*         0x00000000080062fd        0x3 
+                0x0000000008007ee0        0x5 ./src/FreeRTOS/tasks.o
+ *fill*         0x0000000008007ee5        0x3 
  .rodata.prvCheckForValidListAndQueue.str1.4
-                0x0000000008006300        0x5 ./src/FreeRTOS/timers.o
- *fill*         0x0000000008006305        0x3 
+                0x0000000008007ee8        0x5 ./src/FreeRTOS/timers.o
+ *fill*         0x0000000008007eed        0x3 
  .rodata.xTimerCreateTimerTask.str1.4
-                0x0000000008006308        0x8 ./src/FreeRTOS/timers.o
+                0x0000000008007ef0        0x8 ./src/FreeRTOS/timers.o
  .rodata._Z9task1funcPv.str1.4
-                0x0000000008006310       0x72 ./src/main.o
- *fill*         0x0000000008006382        0x2 
+                0x0000000008007ef8       0xab ./src/main.o
+ *fill*         0x0000000008007fa3        0x1 
  .rodata.main.str1.4
-                0x0000000008006384        0xe ./src/main.o
- *fill*         0x0000000008006392        0x2 
+                0x0000000008007fa4        0xe ./src/main.o
+ *fill*         0x0000000008007fb2        0x2 
  .rodata._Z5motorf.str1.4
-                0x0000000008006394       0x15 ./src/sensor.o
+                0x0000000008007fb4       0x15 ./src/sensor.o
  .rodata._printf_float.str1.1
-                0x00000000080063a9       0x12 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_float.o)
+                0x0000000008007fc9       0x12 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_float.o)
  .rodata._printf_i.str1.1
-                0x00000000080063bb       0x22 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
- .rodata.srand.str1.1
-                0x00000000080063dd       0x93 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-rand.o)
+                0x0000000008007fdb       0x22 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .rodata._scanf_float.str1.1
+                0x0000000008007ffd        0x5 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfscanf_float.o)
+                                          0x6 (size before relaxing)
+ .rodata._strtod_l.str1.1
+                0x0000000008008002        0x5 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtod.o)
+                                          0xd (size before relaxing)
+ *fill*         0x0000000008008002        0x2 
+ .rodata.fpi.6220
+                0x0000000008008004       0x14 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtod.o)
+ .rodata.fpinan.6256
+                0x0000000008008018       0x14 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtod.o)
+ *fill*         0x000000000800802c        0x4 
+ .rodata.tinytens
+                0x0000000008008030       0x28 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtod.o)
+ .rodata._ctype_
+                0x0000000008008058      0x101 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-ctype_.o)
+                0x0000000008008058                _ctype_
  .rodata._dtoa_r.str1.1
-                0x0000000008006470       0x9a /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-dtoa.o)
+                0x0000000008008159       0xb1 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-dtoa.o)
                                          0xb3 (size before relaxing)
- .rodata._Balloc.str1.1
-                0x000000000800650a       0x7d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
-                                         0x94 (size before relaxing)
- .rodata.__multadd.str1.1
-                0x0000000008006587       0x11 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
- *fill*         0x0000000008006587        0x1 
- .rodata.__mprec_bigtens
-                0x0000000008006588       0x28 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
-                0x0000000008006588                __mprec_bigtens
- .rodata.__mprec_tens
-                0x00000000080065b0       0xc8 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
-                0x00000000080065b0                __mprec_tens
- .rodata.p05.6150
-                0x0000000008006678        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
- .rodata._svfprintf_r.str1.1
-                0x0000000008006684       0x11 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-svfprintf.o)
+ .rodata.__gethex.str1.1
+                0x000000000800820a       0x84 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-gdtoa-gethex.o)
+                                         0x95 (size before relaxing)
+ .rodata.str1.1
+                0x000000000800828e        0x2 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lnumeric.o)
+                                          0x3 (size before relaxing)
+ .rodata._C_numeric_locale
+                0x0000000008008290        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lnumeric.o)
+                0x0000000008008290                _C_numeric_locale
  .rodata._setlocale_r.str1.1
-                0x0000000008006695        0x8 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-locale.o)
+                0x000000000800829c        0x8 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-locale.o)
                                           0x9 (size before relaxing)
  .rodata.str1.1
-                0x000000000800669d        0x2 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-locale.o)
- .rodata._ctype_
-                0x000000000800669f      0x101 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-ctype_.o)
-                0x000000000800669f                _ctype_
+                0x00000000080082a4        0x2 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-locale.o)
+ .rodata._Balloc.str1.1
+                0x00000000080082a4       0x7d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
+                                         0x94 (size before relaxing)
+ .rodata.__multadd.str1.1
+                0x0000000008008321       0x11 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
+ *fill*         0x0000000008008321        0x7 
+ .rodata.__mprec_bigtens
+                0x0000000008008328       0x28 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
+                0x0000000008008328                __mprec_bigtens
+ .rodata.__mprec_tens
+                0x0000000008008350       0xc8 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
+                0x0000000008008350                __mprec_tens
+ .rodata.p05.6150
+                0x0000000008008418        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
+ .rodata._svfprintf_r.str1.1
+                0x0000000008008424       0x11 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-svfprintf.o)
  *(vtable)
  *(.eh_frame*)
  *(.glue_7)
- .glue_7        0x00000000080067a0        0x0 linker stubs
+ .glue_7        0x0000000008008435        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x00000000080067a0        0x0 linker stubs
+ .glue_7t       0x0000000008008435        0x0 linker stubs
 
-.vfp11_veneer   0x00000000080067a0        0x0
- .vfp11_veneer  0x00000000080067a0        0x0 linker stubs
+.vfp11_veneer   0x0000000008008438        0x0
+ .vfp11_veneer  0x0000000008008438        0x0 linker stubs
 
-.v4_bx          0x00000000080067a0        0x0
- .v4_bx         0x00000000080067a0        0x0 linker stubs
+.v4_bx          0x0000000008008438        0x0
+ .v4_bx         0x0000000008008438        0x0 linker stubs
 
-.iplt           0x00000000080067a0        0x0
- .iplt          0x00000000080067a0        0x0 ./system/src/stm32f4-hal/stm32f4xx_hal.o
+.iplt           0x0000000008008438        0x0
+ .iplt          0x0000000008008438        0x0 ./system/src/stm32f4-hal/stm32f4xx_hal.o
 
-.rel.dyn        0x00000000080067a0        0x0
- .rel.iplt      0x00000000080067a0        0x0 ./system/src/stm32f4-hal/stm32f4xx_hal.o
+.rel.dyn        0x0000000008008438        0x0
+ .rel.iplt      0x0000000008008438        0x0 ./system/src/stm32f4-hal/stm32f4xx_hal.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00000000080067a0                . = ALIGN (0x4)
-                0x00000000080067a0                __exidx_start = .
+                0x0000000008008438                . = ALIGN (0x4)
+                0x0000000008008438                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x00000000080067a0                __exidx_end = .
-                0x00000000080067a0                . = ALIGN (0x4)
-                0x00000000080067a0                _etext = .
-                0x00000000080067a0                __etext = .
+                0x0000000008008438                __exidx_end = .
+                0x0000000008008438                . = ALIGN (0x4)
+                0x0000000008008438                _etext = .
+                0x0000000008008438                __etext = .
 
-.data_CCMRAM    0x0000000010000000        0x0 load address 0x00000000080067a0
+.data_CCMRAM    0x0000000010000000        0x0 load address 0x0000000008008438
  FILL mask 0xff
  *(.data.CCMRAM .data.CCMRAM.*)
                 0x0000000010000000                . = ALIGN (0x4)
-                0x00000000080067a0                _sidata = LOADADDR (.data)
+                0x0000000008008438                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000      0xe1c load address 0x00000000080067a0
+.data           0x0000000020000000      0x544 load address 0x0000000008008438
  FILL mask 0xff
                 0x0000000020000000                _sdata = .
                 0x0000000020000000                __data_start__ = .
@@ -6921,166 +7004,166 @@ END GROUP
  .data.uxTopUsedPriority
                 0x0000000020000014        0x4 ./src/FreeRTOS/tasks.o
                 0x0000000020000014                uxTopUsedPriority
- .data.mymap    0x0000000020000018      0x960 ./src/LookUp.o
+ .data.mymap    0x0000000020000018      0x138 ./src/LookUp.o
                 0x0000000020000018                mymap
  .data.testdata
-                0x0000000020000978      0x2d0 ./src/testdata.o
-                0x0000000020000978                testdata
+                0x0000000020000150      0x21c ./src/testdata.o
+                0x0000000020000150                testdata
  .data._impure_ptr
-                0x0000000020000c48        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-impure.o)
-                0x0000000020000c48                _impure_ptr
+                0x000000002000036c        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-impure.o)
+                0x000000002000036c                _impure_ptr
  .data.impure_data
-                0x0000000020000c4c       0x60 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-impure.o)
+                0x0000000020000370       0x60 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-impure.o)
+ .data.numempty
+                0x00000000200003d0        0x2 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lnumeric.o)
+ *fill*         0x00000000200003d2        0x2 ff
  .data.__global_locale
-                0x0000000020000cac      0x16c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-locale.o)
-                0x0000000020000cac                __global_locale
+                0x00000000200003d4      0x16c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-locale.o)
+                0x00000000200003d4                __global_locale
  *(.data_end .data_end.*)
- .data_end      0x0000000020000e18        0x4 ./system/src/newlib/_startup.o
-                0x0000000020000e1c                . = ALIGN (0x4)
-                0x0000000020000e1c                _edata = .
-                0x0000000020000e1c                __data_end__ = .
+ .data_end      0x0000000020000540        0x4 ./system/src/newlib/_startup.o
+                0x0000000020000544                . = ALIGN (0x4)
+                0x0000000020000544                _edata = .
+                0x0000000020000544                __data_end__ = .
 
-.igot.plt       0x0000000020000e1c        0x0 load address 0x00000000080075bc
- .igot.plt      0x0000000020000e1c        0x0 ./system/src/stm32f4-hal/stm32f4xx_hal.o
+.igot.plt       0x0000000020000544        0x0 load address 0x000000000800897c
+ .igot.plt      0x0000000020000544        0x0 ./system/src/stm32f4-hal/stm32f4xx_hal.o
 
-.ccmram         0x0000000020000e1c      0xf78 load address 0x00000000080075bc
- .ccmram        0x0000000020000e1c      0x8b0 ./src/main.o
-                0x0000000020000e1c                task1
-                0x0000000020000e74                task1stack
-                0x0000000020001274                task2
-                0x00000000200012cc                task2stack
- .ccmram        0x00000000200016cc      0x6c8 ./src/rtoshook.o
-                0x00000000200016cc                xIdleTaskTCB
-                0x0000000020001724                uxIdleTaskStack
+.ccmram         0x0000000020000544      0xf78 load address 0x000000000800897c
+ .ccmram        0x0000000020000544      0x8b0 ./src/main.o
+                0x0000000020000544                task1
+                0x000000002000059c                task1stack
+                0x000000002000099c                task2
+                0x00000000200009f4                task2stack
+ .ccmram        0x0000000020000df4      0x6c8 ./src/rtoshook.o
+                0x0000000020000df4                xIdleTaskTCB
+                0x0000000020000e4c                uxIdleTaskStack
 
 .bss_CCMRAM     0x0000000010000000        0x0
  *(.bss.CCMRAM .bss.CCMRAM.*)
 
-.bss            0x0000000020001d94      0x338
-                0x0000000020001d94                __bss_start__ = .
-                0x0000000020001d94                _sbss = .
+.bss            0x00000000200014bc      0x334
+                0x00000000200014bc                __bss_start__ = .
+                0x00000000200014bc                _sbss = .
  *(.bss_begin .bss_begin.*)
- .bss_begin     0x0000000020001d94        0x4 ./system/src/newlib/_startup.o
+ .bss_begin     0x00000000200014bc        0x4 ./system/src/newlib/_startup.o
  *(.bss .bss.*)
  .bss.current_heap_end.3985
-                0x0000000020001d98        0x4 ./system/src/newlib/_sbrk.o
+                0x00000000200014c0        0x4 ./system/src/newlib/_sbrk.o
  .bss.name.4352
-                0x0000000020001d9c        0x1 ./system/src/newlib/_syscalls.o
- *fill*         0x0000000020001d9d        0x3 
- .bss.buf.5229  0x0000000020001da0       0x80 ./system/src/diag/Trace.o
+                0x00000000200014c4        0x1 ./system/src/newlib/_syscalls.o
+ *fill*         0x00000000200014c5        0x3 
+ .bss.buf.5229  0x00000000200014c8       0x80 ./system/src/diag/Trace.o
  .bss.pxCurrentTCB
-                0x0000000020001e20        0x4 ./src/FreeRTOS/tasks.o
-                0x0000000020001e20                pxCurrentTCB
+                0x0000000020001548        0x4 ./src/FreeRTOS/tasks.o
+                0x0000000020001548                pxCurrentTCB
  .bss.pxDelayedTaskList
-                0x0000000020001e24        0x4 ./src/FreeRTOS/tasks.o
+                0x000000002000154c        0x4 ./src/FreeRTOS/tasks.o
  .bss.pxOverflowDelayedTaskList
-                0x0000000020001e28        0x4 ./src/FreeRTOS/tasks.o
+                0x0000000020001550        0x4 ./src/FreeRTOS/tasks.o
  .bss.pxReadyTasksLists
-                0x0000000020001e2c       0x64 ./src/FreeRTOS/tasks.o
+                0x0000000020001554       0x64 ./src/FreeRTOS/tasks.o
  .bss.uxCurrentNumberOfTasks
-                0x0000000020001e90        0x4 ./src/FreeRTOS/tasks.o
+                0x00000000200015b8        0x4 ./src/FreeRTOS/tasks.o
  .bss.uxDeletedTasksWaitingCleanUp
-                0x0000000020001e94        0x4 ./src/FreeRTOS/tasks.o
+                0x00000000200015bc        0x4 ./src/FreeRTOS/tasks.o
  .bss.uxSchedulerSuspended
-                0x0000000020001e98        0x4 ./src/FreeRTOS/tasks.o
+                0x00000000200015c0        0x4 ./src/FreeRTOS/tasks.o
  .bss.uxTaskNumber
-                0x0000000020001e9c        0x4 ./src/FreeRTOS/tasks.o
+                0x00000000200015c4        0x4 ./src/FreeRTOS/tasks.o
  .bss.uxTopReadyPriority
-                0x0000000020001ea0        0x4 ./src/FreeRTOS/tasks.o
+                0x00000000200015c8        0x4 ./src/FreeRTOS/tasks.o
  .bss.xDelayedTaskList1
-                0x0000000020001ea4       0x14 ./src/FreeRTOS/tasks.o
+                0x00000000200015cc       0x14 ./src/FreeRTOS/tasks.o
  .bss.xDelayedTaskList2
-                0x0000000020001eb8       0x14 ./src/FreeRTOS/tasks.o
+                0x00000000200015e0       0x14 ./src/FreeRTOS/tasks.o
  .bss.xNextTaskUnblockTime
-                0x0000000020001ecc        0x4 ./src/FreeRTOS/tasks.o
+                0x00000000200015f4        0x4 ./src/FreeRTOS/tasks.o
  .bss.xNumOfOverflows
-                0x0000000020001ed0        0x4 ./src/FreeRTOS/tasks.o
+                0x00000000200015f8        0x4 ./src/FreeRTOS/tasks.o
  .bss.xPendedTicks
-                0x0000000020001ed4        0x4 ./src/FreeRTOS/tasks.o
+                0x00000000200015fc        0x4 ./src/FreeRTOS/tasks.o
  .bss.xPendingReadyList
-                0x0000000020001ed8       0x14 ./src/FreeRTOS/tasks.o
+                0x0000000020001600       0x14 ./src/FreeRTOS/tasks.o
  .bss.xSchedulerRunning
-                0x0000000020001eec        0x4 ./src/FreeRTOS/tasks.o
+                0x0000000020001614        0x4 ./src/FreeRTOS/tasks.o
  .bss.xSuspendedTaskList
-                0x0000000020001ef0       0x14 ./src/FreeRTOS/tasks.o
+                0x0000000020001618       0x14 ./src/FreeRTOS/tasks.o
  .bss.xTasksWaitingTermination
-                0x0000000020001f04       0x14 ./src/FreeRTOS/tasks.o
+                0x000000002000162c       0x14 ./src/FreeRTOS/tasks.o
  .bss.xTickCount
-                0x0000000020001f18        0x4 ./src/FreeRTOS/tasks.o
+                0x0000000020001640        0x4 ./src/FreeRTOS/tasks.o
  .bss.xYieldPending
-                0x0000000020001f1c        0x4 ./src/FreeRTOS/tasks.o
+                0x0000000020001644        0x4 ./src/FreeRTOS/tasks.o
  .bss.pxCurrentTimerList
-                0x0000000020001f20        0x4 ./src/FreeRTOS/timers.o
+                0x0000000020001648        0x4 ./src/FreeRTOS/timers.o
  .bss.pxOverflowTimerList
-                0x0000000020001f24        0x4 ./src/FreeRTOS/timers.o
+                0x000000002000164c        0x4 ./src/FreeRTOS/timers.o
  .bss.ucStaticTimerQueueStorage.5118
-                0x0000000020001f28       0x78 ./src/FreeRTOS/timers.o
+                0x0000000020001650       0x78 ./src/FreeRTOS/timers.o
  .bss.xActiveTimerList1
-                0x0000000020001fa0       0x14 ./src/FreeRTOS/timers.o
+                0x00000000200016c8       0x14 ./src/FreeRTOS/timers.o
  .bss.xActiveTimerList2
-                0x0000000020001fb4       0x14 ./src/FreeRTOS/timers.o
+                0x00000000200016dc       0x14 ./src/FreeRTOS/timers.o
  .bss.xLastTime.5069
-                0x0000000020001fc8        0x4 ./src/FreeRTOS/timers.o
+                0x00000000200016f0        0x4 ./src/FreeRTOS/timers.o
  .bss.xStaticTimerQueue.5117
-                0x0000000020001fcc       0x50 ./src/FreeRTOS/timers.o
+                0x00000000200016f4       0x50 ./src/FreeRTOS/timers.o
  .bss.xTimerQueue
-                0x000000002000201c        0x4 ./src/FreeRTOS/timers.o
+                0x0000000020001744        0x4 ./src/FreeRTOS/timers.o
  .bss.xTimerTaskHandle
-                0x0000000020002020        0x4 ./src/FreeRTOS/timers.o
+                0x0000000020001748        0x4 ./src/FreeRTOS/timers.o
  .bss.blinkLeds
-                0x0000000020002024       0x40 ./src/main.o
-                0x0000000020002024                blinkLeds
- .bss.count     0x0000000020002064        0x4 ./src/main.o
-                0x0000000020002064                count
- .bss.random_index
-                0x0000000020002068        0x4 ./src/sensor.o
-                0x0000000020002068                random_index
+                0x000000002000174c       0x40 ./src/main.o
+                0x000000002000174c                blinkLeds
+ .bss.count     0x000000002000178c        0x4 ./src/sensor.o
+                0x000000002000178c                count
  .bss.__malloc_free_list
-                0x000000002000206c        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
-                0x000000002000206c                __malloc_free_list
+                0x0000000020001790        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
+                0x0000000020001790                __malloc_free_list
  .bss.__malloc_sbrk_start
-                0x0000000020002070        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
-                0x0000000020002070                __malloc_sbrk_start
+                0x0000000020001794        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
+                0x0000000020001794                __malloc_sbrk_start
  *(COMMON)
- COMMON         0x0000000020002074        0x4 ./system/src/stm32f4-hal/stm32f4xx_hal.o
-                0x0000000020002074                uwTick
- COMMON         0x0000000020002078        0x4 ./system/src/newlib/_syscalls.o
-                0x0000000020002078                errno
- COMMON         0x000000002000207c       0x40 ./src/FreeRTOS/queue.o
-                0x000000002000207c                xQueueRegistry
- COMMON         0x00000000200020bc        0x9 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lock.o)
-                0x00000000200020bc                __lock___atexit_recursive_mutex
-                0x00000000200020bd                __lock___arc4random_mutex
-                0x00000000200020be                __lock___env_recursive_mutex
-                0x00000000200020bf                __lock___sinit_recursive_mutex
-                0x00000000200020c0                __lock___malloc_recursive_mutex
-                0x00000000200020c1                __lock___at_quick_exit_mutex
-                0x00000000200020c2                __lock___dd_hash_mutex
-                0x00000000200020c3                __lock___tz_mutex
-                0x00000000200020c4                __lock___sfp_recursive_mutex
+ COMMON         0x0000000020001798        0x4 ./system/src/stm32f4-hal/stm32f4xx_hal.o
+                0x0000000020001798                uwTick
+ COMMON         0x000000002000179c        0x4 ./system/src/newlib/_syscalls.o
+                0x000000002000179c                errno
+ COMMON         0x00000000200017a0       0x40 ./src/FreeRTOS/queue.o
+                0x00000000200017a0                xQueueRegistry
+ COMMON         0x00000000200017e0        0x9 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lock.o)
+                0x00000000200017e0                __lock___atexit_recursive_mutex
+                0x00000000200017e1                __lock___arc4random_mutex
+                0x00000000200017e2                __lock___env_recursive_mutex
+                0x00000000200017e3                __lock___sinit_recursive_mutex
+                0x00000000200017e4                __lock___malloc_recursive_mutex
+                0x00000000200017e5                __lock___at_quick_exit_mutex
+                0x00000000200017e6                __lock___dd_hash_mutex
+                0x00000000200017e7                __lock___tz_mutex
+                0x00000000200017e8                __lock___sfp_recursive_mutex
  *(.bss_end .bss_end.*)
- *fill*         0x00000000200020c5        0x3 
- .bss_end       0x00000000200020c8        0x4 ./system/src/newlib/_startup.o
-                0x00000000200020cc                . = ALIGN (0x4)
-                0x00000000200020cc                __bss_end__ = .
-                0x00000000200020cc                _ebss = .
+ *fill*         0x00000000200017e9        0x3 
+ .bss_end       0x00000000200017ec        0x4 ./system/src/newlib/_startup.o
+                0x00000000200017f0                . = ALIGN (0x4)
+                0x00000000200017f0                __bss_end__ = .
+                0x00000000200017f0                _ebss = .
 
 .noinit_CCMRAM
  *(.noinit.CCMRAM .noinit.CCMRAM.*)
 
-.noinit         0x00000000200020cc        0x0
-                0x00000000200020cc                _noinit = .
+.noinit         0x00000000200017f0        0x0
+                0x00000000200017f0                _noinit = .
  *(.noinit .noinit.*)
-                0x00000000200020cc                . = ALIGN (0x4)
-                0x00000000200020cc                _end_noinit = .
+                0x00000000200017f0                . = ALIGN (0x4)
+                0x00000000200017f0                _end_noinit = .
                 [!provide]                        PROVIDE (end = _end_noinit)
                 [!provide]                        PROVIDE (_end = _end_noinit)
                 [!provide]                        PROVIDE (__end = _end_noinit)
                 [!provide]                        PROVIDE (__end__ = _end_noinit)
 
-._check_stack   0x00000000200020cc      0x100
-                0x00000000200021cc                . = (. + _Minimum_Stack_Size)
- *fill*         0x00000000200020cc      0x100 
+._check_stack   0x00000000200017f0      0x100
+                0x00000000200018f0                . = (. + _Minimum_Stack_Size)
+ *fill*         0x00000000200017f0      0x100 
 
 .b1text
  *(.b1text)
@@ -7221,77 +7304,103 @@ END GROUP
  .ARM.attributes
                 0x000000000000053b       0x1e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubdf3.o)
  .ARM.attributes
-                0x0000000000000559       0x1e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubsf3.o)
+                0x0000000000000559       0x1e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_truncdfsf2.o)
  .ARM.attributes
-                0x0000000000000577       0x1e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldivsf3.o)
+                0x0000000000000577       0x1e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubsf3.o)
  .ARM.attributes
-                0x0000000000000595       0x1e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpsf2.o)
+                0x0000000000000595       0x1e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldivsf3.o)
  .ARM.attributes
-                0x00000000000005b3       0x1e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_fixsfsi.o)
+                0x00000000000005b3       0x1e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpsf2.o)
  .ARM.attributes
-                0x00000000000005d1       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-errno.o)
+                0x00000000000005d1       0x1e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_fixsfsi.o)
  .ARM.attributes
-                0x00000000000005ff       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-impure.o)
+                0x00000000000005ef       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-errno.o)
  .ARM.attributes
-                0x000000000000062d       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+                0x000000000000061d       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-impure.o)
  .ARM.attributes
-                0x000000000000065b       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memset.o)
+                0x000000000000064b       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
  .ARM.attributes
-                0x0000000000000689       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_float.o)
+                0x0000000000000679       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memset.o)
  .ARM.attributes
-                0x00000000000006b7       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x00000000000006a7       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_float.o)
  .ARM.attributes
-                0x00000000000006e5       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-rand.o)
+                0x00000000000006d5       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
  .ARM.attributes
-                0x0000000000000713       0x17 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strlen.o)
+                0x0000000000000703       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfscanf_float.o)
  .ARM.attributes
-                0x000000000000072a       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-vsnprintf.o)
+                0x0000000000000731       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-sf_nan.o)
  .ARM.attributes
-                0x0000000000000758       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-dtoa.o)
+                0x000000000000075f       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-sprintf.o)
  .ARM.attributes
-                0x0000000000000786       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-localeconv.o)
+                0x000000000000078d       0x17 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strlen.o)
  .ARM.attributes
-                0x00000000000007b4       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-malloc.o)
+                0x00000000000007a4       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtod.o)
  .ARM.attributes
-                0x00000000000007e2       0x1c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memchr.o)
+                0x00000000000007d2       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtol.o)
  .ARM.attributes
-                0x00000000000007fe       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
+                0x0000000000000800       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-vsnprintf.o)
  .ARM.attributes
-                0x000000000000082c       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-callocr.o)
+                0x000000000000082e       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-ctype_.o)
  .ARM.attributes
-                0x000000000000085a       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-freer.o)
+                0x000000000000085c       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-dtoa.o)
  .ARM.attributes
-                0x0000000000000888       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
+                0x000000000000088a       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-gdtoa-gethex.o)
  .ARM.attributes
-                0x00000000000008b6       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-svfprintf.o)
+                0x00000000000008b8       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-gdtoa-hexnan.o)
  .ARM.attributes
-                0x00000000000008e4       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-sbrkr.o)
+                0x00000000000008e6       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lnumeric.o)
  .ARM.attributes
-                0x0000000000000912       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-locale.o)
+                0x0000000000000914       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-locale.o)
  .ARM.attributes
-                0x0000000000000940       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mbtowc_r.o)
+                0x0000000000000942       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-localeconv.o)
  .ARM.attributes
-                0x000000000000096e       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memmove.o)
+                0x0000000000000970       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-malloc.o)
  .ARM.attributes
-                0x000000000000099c       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mlock.o)
+                0x000000000000099e       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mbtowc_r.o)
  .ARM.attributes
-                0x00000000000009ca       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-reallocr.o)
+                0x00000000000009cc       0x1c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memchr.o)
  .ARM.attributes
-                0x00000000000009f8       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-wctomb_r.o)
+                0x00000000000009e8       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
  .ARM.attributes
-                0x0000000000000a26       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-ctype_.o)
+                0x0000000000000a16       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-callocr.o)
  .ARM.attributes
-                0x0000000000000a54       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lock.o)
+                0x0000000000000a44       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-freer.o)
  .ARM.attributes
-                0x0000000000000a82       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-msizer.o)
+                0x0000000000000a72       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
  .ARM.attributes
-                0x0000000000000ab0       0x1e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldivdf3.o)
+                0x0000000000000aa0       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-svfprintf.o)
  .ARM.attributes
-                0x0000000000000ace       0x1e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpdf2.o)
+                0x0000000000000ace       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-s_nan.o)
  .ARM.attributes
-                0x0000000000000aec       0x1e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_unorddf2.o)
+                0x0000000000000afc       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-sbrkr.o)
  .ARM.attributes
-                0x0000000000000b0a       0x1e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_fixdfsi.o)
+                0x0000000000000b2a       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strncmp.o)
+ .ARM.attributes
+                0x0000000000000b58       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-wctomb_r.o)
+ .ARM.attributes
+                0x0000000000000b86       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x0000000000000bb4       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x0000000000000be2       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-reallocr.o)
+ .ARM.attributes
+                0x0000000000000c10       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lock.o)
+ .ARM.attributes
+                0x0000000000000c3e       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-msizer.o)
+ .ARM.attributes
+                0x0000000000000c6c       0x1e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x0000000000000c8a       0x1e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x0000000000000ca8       0x1e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_unorddf2.o)
+ .ARM.attributes
+                0x0000000000000cc6       0x1e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_fixdfsi.o)
+ .ARM.attributes
+                0x0000000000000ce4       0x1e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_fixunsdfsi.o)
+ .ARM.attributes
+                0x0000000000000d02       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_fixdfdi.o)
+ .ARM.attributes
+                0x0000000000000d30       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_fixunsdfdi.o)
 
 .debug
  *(.debug)
@@ -7369,7 +7478,7 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x0000000000000000    0x1c136
+.debug_info     0x0000000000000000    0x1c1b8
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x0000000000000000     0x11e8 ./system/src/stm32f4-hal/stm32f4xx_hal.o
  .debug_info    0x00000000000011e8     0x1b31 ./system/src/stm32f4-hal/stm32f4xx_hal_cortex.o
@@ -7392,16 +7501,16 @@ END GROUP
  .debug_info    0x000000000001047e     0x3ca2 ./src/FreeRTOS/tasks.o
  .debug_info    0x0000000000014120     0x2132 ./src/FreeRTOS/timers.o
  .debug_info    0x0000000000016252      0xece ./src/BlinkLed.o
- .debug_info    0x0000000000017120      0x1ae ./src/LookUp.o
- .debug_info    0x00000000000172ce      0xdf6 ./src/_initialize_hardware.o
- .debug_info    0x00000000000180c4     0x1d1b ./src/main.o
- .debug_info    0x0000000000019ddf      0xb29 ./src/pid.o
- .debug_info    0x000000000001a908      0x3e8 ./src/rtoshook.o
- .debug_info    0x000000000001acf0      0xa4f ./src/sensor.o
- .debug_info    0x000000000001b73f      0x997 ./src/stm32f4xx_hal_msp.o
- .debug_info    0x000000000001c0d6       0x60 ./src/testdata.o
+ .debug_info    0x0000000000017120      0x18f ./src/LookUp.o
+ .debug_info    0x00000000000172af      0xdf6 ./src/_initialize_hardware.o
+ .debug_info    0x00000000000180a5     0x1db8 ./src/main.o
+ .debug_info    0x0000000000019e5d      0xb2d ./src/pid.o
+ .debug_info    0x000000000001a98a      0x3e8 ./src/rtoshook.o
+ .debug_info    0x000000000001ad72      0xa4f ./src/sensor.o
+ .debug_info    0x000000000001b7c1      0x997 ./src/stm32f4xx_hal_msp.o
+ .debug_info    0x000000000001c158       0x60 ./src/testdata.o
 
-.debug_abbrev   0x0000000000000000     0x4e3c
+.debug_abbrev   0x0000000000000000     0x4e0b
  *(.debug_abbrev)
  .debug_abbrev  0x0000000000000000      0x37b ./system/src/stm32f4-hal/stm32f4xx_hal.o
  .debug_abbrev  0x000000000000037b      0x470 ./system/src/stm32f4-hal/stm32f4xx_hal_cortex.o
@@ -7424,16 +7533,16 @@ END GROUP
  .debug_abbrev  0x00000000000030ca      0x451 ./src/FreeRTOS/tasks.o
  .debug_abbrev  0x000000000000351b      0x38f ./src/FreeRTOS/timers.o
  .debug_abbrev  0x00000000000038aa      0x316 ./src/BlinkLed.o
- .debug_abbrev  0x0000000000003bc0      0x150 ./src/LookUp.o
- .debug_abbrev  0x0000000000003d10      0x25d ./src/_initialize_hardware.o
- .debug_abbrev  0x0000000000003f6d      0x67a ./src/main.o
- .debug_abbrev  0x00000000000045e7      0x283 ./src/pid.o
- .debug_abbrev  0x000000000000486a      0x15c ./src/rtoshook.o
- .debug_abbrev  0x00000000000049c6      0x240 ./src/sensor.o
- .debug_abbrev  0x0000000000004c06      0x1d9 ./src/stm32f4xx_hal_msp.o
- .debug_abbrev  0x0000000000004ddf       0x5d ./src/testdata.o
+ .debug_abbrev  0x0000000000003bc0      0x164 ./src/LookUp.o
+ .debug_abbrev  0x0000000000003d24      0x25d ./src/_initialize_hardware.o
+ .debug_abbrev  0x0000000000003f81      0x617 ./src/main.o
+ .debug_abbrev  0x0000000000004598      0x285 ./src/pid.o
+ .debug_abbrev  0x000000000000481d      0x15c ./src/rtoshook.o
+ .debug_abbrev  0x0000000000004979      0x25c ./src/sensor.o
+ .debug_abbrev  0x0000000000004bd5      0x1d9 ./src/stm32f4xx_hal_msp.o
+ .debug_abbrev  0x0000000000004dae       0x5d ./src/testdata.o
 
-.debug_line     0x0000000000000000    0x123de
+.debug_line     0x0000000000000000    0x12432
  *(.debug_line)
  .debug_line    0x0000000000000000      0xca0 ./system/src/stm32f4-hal/stm32f4xx_hal.o
  .debug_line    0x0000000000000ca0      0xfce ./system/src/stm32f4-hal/stm32f4xx_hal_cortex.o
@@ -7456,16 +7565,16 @@ END GROUP
  .debug_line    0x000000000000aa45     0x2f5d ./src/FreeRTOS/tasks.o
  .debug_line    0x000000000000d9a2      0xf15 ./src/FreeRTOS/timers.o
  .debug_line    0x000000000000e8b7      0xb7e ./src/BlinkLed.o
- .debug_line    0x000000000000f435      0x18c ./src/LookUp.o
- .debug_line    0x000000000000f5c1      0xaaf ./src/_initialize_hardware.o
- .debug_line    0x0000000000010070      0xf02 ./src/main.o
- .debug_line    0x0000000000010f72      0x377 ./src/pid.o
- .debug_line    0x00000000000112e9      0x2eb ./src/rtoshook.o
- .debug_line    0x00000000000115d4      0x37f ./src/sensor.o
- .debug_line    0x0000000000011953      0xa3e ./src/stm32f4xx_hal_msp.o
- .debug_line    0x0000000000012391       0x4d ./src/testdata.o
+ .debug_line    0x000000000000f435       0xd6 ./src/LookUp.o
+ .debug_line    0x000000000000f50b      0xaaf ./src/_initialize_hardware.o
+ .debug_line    0x000000000000ffba     0x1004 ./src/main.o
+ .debug_line    0x0000000000010fbe      0x37f ./src/pid.o
+ .debug_line    0x000000000001133d      0x2eb ./src/rtoshook.o
+ .debug_line    0x0000000000011628      0x37f ./src/sensor.o
+ .debug_line    0x00000000000119a7      0xa3e ./src/stm32f4xx_hal_msp.o
+ .debug_line    0x00000000000123e5       0x4d ./src/testdata.o
 
-.debug_frame    0x0000000000000000     0x26c0
+.debug_frame    0x0000000000000000     0x2a80
  *(.debug_frame)
  .debug_frame   0x0000000000000000      0x188 ./system/src/stm32f4-hal/stm32f4xx_hal.o
  .debug_frame   0x0000000000000188      0x17c ./system/src/stm32f4-hal/stm32f4xx_hal_cortex.o
@@ -7488,48 +7597,61 @@ END GROUP
  .debug_frame   0x0000000000000e70      0x668 ./src/FreeRTOS/tasks.o
  .debug_frame   0x00000000000014d8      0x2d0 ./src/FreeRTOS/timers.o
  .debug_frame   0x00000000000017a8       0x8c ./src/BlinkLed.o
- .debug_frame   0x0000000000001834       0x34 ./src/LookUp.o
- .debug_frame   0x0000000000001868       0x48 ./src/_initialize_hardware.o
- .debug_frame   0x00000000000018b0       0x94 ./src/main.o
- .debug_frame   0x0000000000001944       0x30 ./src/pid.o
- .debug_frame   0x0000000000001974       0x7c ./src/rtoshook.o
- .debug_frame   0x00000000000019f0       0x70 ./src/sensor.o
- .debug_frame   0x0000000000001a60       0x50 ./src/stm32f4xx_hal_msp.o
- .debug_frame   0x0000000000001ab0       0xac /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubdf3.o)
- .debug_frame   0x0000000000001b5c       0x4c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubsf3.o)
- .debug_frame   0x0000000000001ba8       0x38 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldivsf3.o)
- .debug_frame   0x0000000000001be0       0xc8 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpsf2.o)
- .debug_frame   0x0000000000001ca8       0x24 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_fixsfsi.o)
- .debug_frame   0x0000000000001ccc       0x20 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-errno.o)
- .debug_frame   0x0000000000001cec       0x28 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
- .debug_frame   0x0000000000001d14       0x20 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memset.o)
- .debug_frame   0x0000000000001d34       0x94 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_float.o)
- .debug_frame   0x0000000000001dc8       0x60 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
- .debug_frame   0x0000000000001e28       0x44 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-rand.o)
- .debug_frame   0x0000000000001e6c       0x4c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-vsnprintf.o)
- .debug_frame   0x0000000000001eb8       0x6c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-dtoa.o)
- .debug_frame   0x0000000000001f24       0x40 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-localeconv.o)
- .debug_frame   0x0000000000001f64       0x30 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-malloc.o)
- .debug_frame   0x0000000000001f94      0x254 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
- .debug_frame   0x00000000000021e8       0x2c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-callocr.o)
- .debug_frame   0x0000000000002214       0x38 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-freer.o)
- .debug_frame   0x000000000000224c       0x30 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
- .debug_frame   0x000000000000227c       0x90 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-svfprintf.o)
- .debug_frame   0x000000000000230c       0x2c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-sbrkr.o)
- .debug_frame   0x0000000000002338       0x48 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-locale.o)
- .debug_frame   0x0000000000002380       0x48 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mbtowc_r.o)
- .debug_frame   0x00000000000023c8       0x28 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memmove.o)
- .debug_frame   0x00000000000023f0       0x30 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mlock.o)
- .debug_frame   0x0000000000002420       0x3c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-reallocr.o)
- .debug_frame   0x000000000000245c       0x3c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-wctomb_r.o)
- .debug_frame   0x0000000000002498       0xb0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lock.o)
- .debug_frame   0x0000000000002548       0x20 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-msizer.o)
- .debug_frame   0x0000000000002568       0x50 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldivdf3.o)
- .debug_frame   0x00000000000025b8       0xc4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpdf2.o)
- .debug_frame   0x000000000000267c       0x20 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_unorddf2.o)
- .debug_frame   0x000000000000269c       0x24 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_fixdfsi.o)
+ .debug_frame   0x0000000000001834       0x30 ./src/LookUp.o
+ .debug_frame   0x0000000000001864       0x48 ./src/_initialize_hardware.o
+ .debug_frame   0x00000000000018ac       0x90 ./src/main.o
+ .debug_frame   0x000000000000193c       0x30 ./src/pid.o
+ .debug_frame   0x000000000000196c       0x7c ./src/rtoshook.o
+ .debug_frame   0x00000000000019e8       0x68 ./src/sensor.o
+ .debug_frame   0x0000000000001a50       0x50 ./src/stm32f4xx_hal_msp.o
+ .debug_frame   0x0000000000001aa0       0xac /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x0000000000001b4c       0x24 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_truncdfsf2.o)
+ .debug_frame   0x0000000000001b70       0x4c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubsf3.o)
+ .debug_frame   0x0000000000001bbc       0x38 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldivsf3.o)
+ .debug_frame   0x0000000000001bf4       0xc8 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpsf2.o)
+ .debug_frame   0x0000000000001cbc       0x24 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_fixsfsi.o)
+ .debug_frame   0x0000000000001ce0       0x20 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-errno.o)
+ .debug_frame   0x0000000000001d00       0x28 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x0000000000001d28       0x20 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memset.o)
+ .debug_frame   0x0000000000001d48       0x94 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_float.o)
+ .debug_frame   0x0000000000001ddc       0x60 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .debug_frame   0x0000000000001e3c       0x40 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfscanf_float.o)
+ .debug_frame   0x0000000000001e7c       0x20 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-sf_nan.o)
+ .debug_frame   0x0000000000001e9c       0x6c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-sprintf.o)
+ .debug_frame   0x0000000000001f08       0xe8 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtod.o)
+ .debug_frame   0x0000000000001ff0       0x64 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strtol.o)
+ .debug_frame   0x0000000000002054       0x4c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-vsnprintf.o)
+ .debug_frame   0x00000000000020a0       0x6c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-dtoa.o)
+ .debug_frame   0x000000000000210c       0x74 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-gdtoa-gethex.o)
+ .debug_frame   0x0000000000002180       0x74 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-gdtoa-hexnan.o)
+ .debug_frame   0x00000000000021f4       0x20 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lnumeric.o)
+ .debug_frame   0x0000000000002214       0x48 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-locale.o)
+ .debug_frame   0x000000000000225c       0x40 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-localeconv.o)
+ .debug_frame   0x000000000000229c       0x30 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-malloc.o)
+ .debug_frame   0x00000000000022cc       0x48 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mbtowc_r.o)
+ .debug_frame   0x0000000000002314      0x254 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mprec.o)
+ .debug_frame   0x0000000000002568       0x2c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-callocr.o)
+ .debug_frame   0x0000000000002594       0x38 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x00000000000025cc       0x30 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x00000000000025fc       0x90 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-svfprintf.o)
+ .debug_frame   0x000000000000268c       0x20 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-s_nan.o)
+ .debug_frame   0x00000000000026ac       0x2c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x00000000000026d8       0x28 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strncmp.o)
+ .debug_frame   0x0000000000002700       0x3c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-wctomb_r.o)
+ .debug_frame   0x000000000000273c       0x28 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memmove.o)
+ .debug_frame   0x0000000000002764       0x30 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mlock.o)
+ .debug_frame   0x0000000000002794       0x3c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-reallocr.o)
+ .debug_frame   0x00000000000027d0       0xb0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lock.o)
+ .debug_frame   0x0000000000002880       0x20 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-msizer.o)
+ .debug_frame   0x00000000000028a0       0x50 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldivdf3.o)
+ .debug_frame   0x00000000000028f0       0xc4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpdf2.o)
+ .debug_frame   0x00000000000029b4       0x20 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_unorddf2.o)
+ .debug_frame   0x00000000000029d4       0x24 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_fixdfsi.o)
+ .debug_frame   0x00000000000029f8       0x24 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_fixunsdfsi.o)
+ .debug_frame   0x0000000000002a1c       0x38 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_fixdfdi.o)
+ .debug_frame   0x0000000000002a54       0x2c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_fixunsdfdi.o)
 
-.debug_str      0x0000000000000000    0xa66ed
+.debug_str      0x0000000000000000    0xa6707
  *(.debug_str)
  .debug_str     0x0000000000000000    0x9793a ./system/src/stm32f4-hal/stm32f4xx_hal.o
                                       0x97da2 (size before relaxing)
@@ -7573,24 +7695,24 @@ END GROUP
                                        0xd192 (size before relaxing)
  .debug_str     0x00000000000a3f5a      0x84a ./src/BlinkLed.o
                                       0x97801 (size before relaxing)
- .debug_str     0x00000000000a47a4       0x99 ./src/LookUp.o
-                                       0x3197 (size before relaxing)
- .debug_str     0x00000000000a483d       0x31 ./src/_initialize_hardware.o
+ .debug_str     0x00000000000a47a4       0x8d ./src/LookUp.o
+                                       0x3192 (size before relaxing)
+ .debug_str     0x00000000000a4831       0x31 ./src/_initialize_hardware.o
                                       0x974e0 (size before relaxing)
- .debug_str     0x00000000000a486e     0x1d08 ./src/main.o
-                                      0x9f0c2 (size before relaxing)
- .debug_str     0x00000000000a6576       0x3a ./src/pid.o
-                                       0x8530 (size before relaxing)
- .debug_str     0x00000000000a65b0       0xda ./src/rtoshook.o
+ .debug_str     0x00000000000a4862     0x1d3e ./src/main.o
+                                      0x9f0f3 (size before relaxing)
+ .debug_str     0x00000000000a65a0       0x2a ./src/pid.o
+                                       0x8529 (size before relaxing)
+ .debug_str     0x00000000000a65ca       0xda ./src/rtoshook.o
                                        0x89cf (size before relaxing)
- .debug_str     0x00000000000a668a       0x12 ./src/sensor.o
-                                       0x8501 (size before relaxing)
- .debug_str     0x00000000000a669c       0x3d ./src/stm32f4xx_hal_msp.o
+ .debug_str     0x00000000000a66a4       0x12 ./src/sensor.o
+                                       0x84fa (size before relaxing)
+ .debug_str     0x00000000000a66b6       0x3d ./src/stm32f4xx_hal_msp.o
                                       0x97226 (size before relaxing)
- .debug_str     0x00000000000a66d9       0x14 ./src/testdata.o
+ .debug_str     0x00000000000a66f3       0x14 ./src/testdata.o
                                        0x3115 (size before relaxing)
 
-.debug_loc      0x0000000000000000     0x78f5
+.debug_loc      0x0000000000000000     0x7974
  *(.debug_loc)
  .debug_loc     0x0000000000000000       0xdb ./system/src/stm32f4-hal/stm32f4xx_hal.o
  .debug_loc     0x00000000000000db      0x8ef ./system/src/stm32f4-hal/stm32f4xx_hal_cortex.o
@@ -7611,10 +7733,10 @@ END GROUP
  .debug_loc     0x0000000000003bbc     0x2905 ./src/FreeRTOS/tasks.o
  .debug_loc     0x00000000000064c1      0xef7 ./src/FreeRTOS/timers.o
  .debug_loc     0x00000000000073b8       0xba ./src/BlinkLed.o
- .debug_loc     0x0000000000007472      0x148 ./src/LookUp.o
- .debug_loc     0x00000000000075ba      0x20f ./src/main.o
- .debug_loc     0x00000000000077c9      0x105 ./src/pid.o
- .debug_loc     0x00000000000078ce       0x27 ./src/sensor.o
+ .debug_loc     0x0000000000007472       0xf0 ./src/LookUp.o
+ .debug_loc     0x0000000000007562      0x2e6 ./src/main.o
+ .debug_loc     0x0000000000007848      0x105 ./src/pid.o
+ .debug_loc     0x000000000000794d       0x27 ./src/sensor.o
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -7633,7 +7755,7 @@ END GROUP
 OUTPUT(rtos.elf elf32-littlearm)
 LOAD linker stubs
 
-.debug_ranges   0x0000000000000000      0xc68
+.debug_ranges   0x0000000000000000      0xc50
  .debug_ranges  0x0000000000000000       0xb0 ./system/src/stm32f4-hal/stm32f4xx_hal.o
  .debug_ranges  0x00000000000000b0       0xe8 ./system/src/stm32f4-hal/stm32f4xx_hal_cortex.o
  .debug_ranges  0x0000000000000198       0x78 ./system/src/stm32f4-hal/stm32f4xx_hal_rcc.o
@@ -7657,13 +7779,13 @@ LOAD linker stubs
  .debug_ranges  0x0000000000000b28       0x38 ./src/BlinkLed.o
  .debug_ranges  0x0000000000000b60       0x10 ./src/LookUp.o
  .debug_ranges  0x0000000000000b70       0x18 ./src/_initialize_hardware.o
- .debug_ranges  0x0000000000000b88       0x48 ./src/main.o
- .debug_ranges  0x0000000000000bd0       0x10 ./src/pid.o
- .debug_ranges  0x0000000000000be0       0x38 ./src/rtoshook.o
- .debug_ranges  0x0000000000000c18       0x28 ./src/sensor.o
- .debug_ranges  0x0000000000000c40       0x28 ./src/stm32f4xx_hal_msp.o
+ .debug_ranges  0x0000000000000b88       0x30 ./src/main.o
+ .debug_ranges  0x0000000000000bb8       0x10 ./src/pid.o
+ .debug_ranges  0x0000000000000bc8       0x38 ./src/rtoshook.o
+ .debug_ranges  0x0000000000000c00       0x28 ./src/sensor.o
+ .debug_ranges  0x0000000000000c28       0x28 ./src/stm32f4xx_hal_msp.o
 
-.debug_macro    0x0000000000000000    0x1ed22
+.debug_macro    0x0000000000000000    0x1ed4a
  .debug_macro   0x0000000000000000      0x552 ./system/src/stm32f4-hal/stm32f4xx_hal.o
  .debug_macro   0x0000000000000552      0xaae ./system/src/stm32f4-hal/stm32f4xx_hal.o
  .debug_macro   0x0000000000001000      0x289 ./system/src/stm32f4-hal/stm32f4xx_hal.o
@@ -7820,11 +7942,11 @@ LOAD linker stubs
  .debug_macro   0x000000000001d508       0x97 ./src/BlinkLed.o
  .debug_macro   0x000000000001d59f      0x104 ./src/BlinkLed.o
  .debug_macro   0x000000000001d6a3      0x137 ./src/BlinkLed.o
- .debug_macro   0x000000000001d7da       0x25 ./src/LookUp.o
- .debug_macro   0x000000000001d7ff      0x504 ./src/_initialize_hardware.o
- .debug_macro   0x000000000001dd03      0x6bb ./src/main.o
- .debug_macro   0x000000000001e3be      0x1cf ./src/pid.o
- .debug_macro   0x000000000001e58d       0xa7 ./src/rtoshook.o
- .debug_macro   0x000000000001e634      0x1cf ./src/sensor.o
- .debug_macro   0x000000000001e803      0x504 ./src/stm32f4xx_hal_msp.o
- .debug_macro   0x000000000001ed07       0x1b ./src/testdata.o
+ .debug_macro   0x000000000001d7da       0x2f ./src/LookUp.o
+ .debug_macro   0x000000000001d809      0x504 ./src/_initialize_hardware.o
+ .debug_macro   0x000000000001dd0d      0x6d9 ./src/main.o
+ .debug_macro   0x000000000001e3e6      0x1cf ./src/pid.o
+ .debug_macro   0x000000000001e5b5       0xa7 ./src/rtoshook.o
+ .debug_macro   0x000000000001e65c      0x1cf ./src/sensor.o
+ .debug_macro   0x000000000001e82b      0x504 ./src/stm32f4xx_hal_msp.o
+ .debug_macro   0x000000000001ed2f       0x1b ./src/testdata.o

@@ -6,9 +6,9 @@
 //  Copyright © 2020 Daniel Wang. All rights reserved.
 //
 
-#include <pid.hpp>
+#include "pid.hpp"
 
-void pid::pid_task(float desired_value, float actual_value){
+int pid::pid_task(float desired_value, float actual_value){
  
     float error = desired_value - actual_value;
     float integral = integral_prior + error * iteration_time;
@@ -17,6 +17,8 @@ void pid::pid_task(float desired_value, float actual_value){
     error_prior = error;
     integral_prior = integral;
     motor(output);
+    return output;
+
     //sleep(iteration_time)
     
 }

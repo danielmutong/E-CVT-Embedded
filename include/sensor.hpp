@@ -14,10 +14,9 @@
 
 void motor(float output);
 float getRPM();
-float getThrottle();
-float getTorque();
-
-extern int random_index;
+float getSheath();
+int getThrottle();
+extern int count;
 
 
 

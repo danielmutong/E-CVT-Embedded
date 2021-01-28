@@ -5,7 +5,7 @@
 //  Created by Daniel Wang on 2020-11-18.
 //  Copyright © 2020 Daniel Wang. All rights reserved.
 //
-
+/*
 #include "control.hpp"
 #define ROWS 21
 #define COLS 7
@@ -43,6 +43,6 @@ void loop(void){
 
     
 }
-
+*/
 
 

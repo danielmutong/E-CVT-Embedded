@@ -1,5 +1,8 @@
-src/LookUp.o: ../src/LookUp.cpp ../include/LookUp.hpp ../include/Table.h
+src/LookUp.o: ../src/LookUp.cpp ../include/LookUp.hpp ../include/Table.h \
+ ../include/Table.h
 
 ../include/LookUp.hpp:
+
+../include/Table.h:
 
 ../include/Table.h:

@@ -13,7 +13,7 @@
 //#include <iostream>
 #include "diag/Trace.h"
 
-void loop(void);
+//void loop(void);
 
 
 #endif /* CONTROL_HPP_ */
