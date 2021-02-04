@@ -163,13 +163,13 @@ BlinkLed blinkLeds[1] =
 
 #define MIN_SHEATH 15 // minimum sheath position before limit switch
 #define MAX_SHEATH 80 // starting sheath position
-#define SHIFT_DISPLACEMENT 0.1
+#define SHIFT_DISPLACEMENT 0.3
 #define MAX_RPM 3550
 #define MAX_THROTTLE 100
 StackType_t task1stack[FPU_TASK_STACK_SIZE] CCM_RAM;  // Put task stack in CCM
 StaticTask_t task1 CCM_RAM;  // Put TCB in CCM
 void task1func(void *) {
-	count = 0;
+	count = 10;
 	  pid test;
 	  LookUp a;
 	  int rpm = 0;
@@ -207,32 +207,36 @@ void task1func(void *) {
 	    if(throttle == MAX_THROTTLE && (rpm) > MAX_RPM){
 	      if(sheath > MIN_SHEATH){ //makes sure sheath position doesnt exceed kill switch limit
 	    	trace_printf("upshifting \n");
+			  trace_printf("rpm:%u  \n", rpm);
+
 	    	motor(100);
 	        sheath = sheath -  SHIFT_DISPLACEMENT; //used for modelling
-		  	trace_printf("new sheath:%f  \n", sheath);
+		  	trace_printf("new sheath:%f  \n \n", sheath);
 
 	      }
 
 	    }
 	    //load
-	    else if( (rpm < MAX_RPM && throttle == MAX_RPM) ){
+	    else if( (rpm < MAX_RPM && throttle == MAX_THROTTLE) ){
 	    	trace_printf("experiencing load \n");
 	      ideal_sheath = a.findkey(rpm);
+		  trace_printf("rpm:%u  \n", rpm);
 	      measured_sheath = getSheath();
 		  	trace_printf("ideal sheath :%u - measured sheath: %u  \n", ideal_sheath, measured_sheath);
 	      //moving sheath based on pid difference
 	      int pid_out = test.pid_task(ideal_sheath, measured_sheath);
 	      sheath = measured_sheath + pid_out; //used for modelling
-		  trace_printf("new sheath:%f  \n", sheath);
+		  trace_printf("new sheath:%f  \n \n", sheath);
 
 	    }
 	    //down shift linearly
 	    else if(throttle == 0){
 	      trace_printf("downshifting \n");
+		  trace_printf("rpm:%u  \n", rpm);
 
 	      motor(-100);
 	      sheath = sheath + SHIFT_DISPLACEMENT; //used for modelling
-		  trace_printf("new sheath:%f  \n", sheath);
+		  trace_printf("new sheath:%f  \n \n", sheath);
 	    }
 	    count = count + 1;
 	    vTaskDelay(2000);
