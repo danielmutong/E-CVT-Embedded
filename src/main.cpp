@@ -177,6 +177,7 @@ void task1func(void *) {
 	  int ideal_sheath = 0;
 	  int throttle = 0;
 	  float sheath = MAX_SHEATH;
+	  	trace_printf("engagement phase\n \n");
 
 	  //engagement phase
 	  while(rpm < MAX_RPM){
@@ -191,7 +192,7 @@ void task1func(void *) {
 
 	      int pid_out = test.pid_task(ideal_sheath, measured_sheath);  //feeding measured sheath and ideal sheath into pid to find the adjustment
 	      sheath = measured_sheath + pid_out;   //moving sheath based on pid difference
-	  	trace_printf("new sheath:%f  \n", sheath);
+	  	trace_printf("new sheath:%f  \n \n", sheath);
 
 	    }
 	    count = count + 1;
@@ -199,6 +200,7 @@ void task1func(void *) {
 
 
 	  }
+	  	trace_printf("shift phase\n \n");
 
 	  //Once we get to 3550 rpm, we enter the straight shift phase where we want to keep rpm constant
 	  while(1){
